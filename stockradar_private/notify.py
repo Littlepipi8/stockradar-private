@@ -1,41 +1,100 @@
-"""Email alerts for newly observed daily signals (deduplicated using committed state)."""
+
+"""Send new daily stock signals to Discord, without duplicate alerts."""
+
 import json
 import os
-import smtplib
-from email.message import EmailMessage
+import urllib.error
+import urllib.request
 from pathlib import Path
+
 from scanner import OUT
 
-STATE = Path(__file__).resolve().parent / 'data' / 'alert_state.json'
+STATE = Path(__file__).resolve().parent / "data" / "alert_state.json"
+
 
 def notify():
-    payload = json.loads(OUT.read_text())
-    if payload['scanned'] < max(1, int(payload['universe_size']*.8)):
-        raise RuntimeError('Insufficient coverage; not alerting')
-    previous = json.loads(STATE.read_text()) if STATE.exists() else {}
-    active = {r['ticker']: f"{r['date']}:{r['signal']}" for r in payload['results'] if r['signal'] != 'NONE'}
-    fresh = [r for r in payload['results'] if r['ticker'] in active and previous.get(r['ticker']) != active[r['ticker']]]
-    # Do not mark alerts as sent until email succeeds.
-    if fresh:
-        required = ['SMTP_HOST','SMTP_PORT','SMTP_USER','SMTP_PASSWORD','ALERT_EMAIL_TO']
-        missing = [k for k in required if not os.getenv(k)]
-        if missing:
-            print('Email not configured; skipping notification. Missing: ' + ', '.join(missing))
-            return
-        message = EmailMessage()
-        message['Subject'] = f"StockRadar: {len(fresh)} new daily signal(s)"
-        message['From'] = os.getenv('ALERT_EMAIL_FROM', os.environ['SMTP_USER'])
-        message['To'] = os.environ['ALERT_EMAIL_TO']
-        message.set_content('Daily StockRadar signals (research only):\n\n' + '\n'.join(
-            f"{r['ticker']} | {r['signal']} | Close ${r['close']} | Support ${r['support']} | Distance {r['distance_pct']}% | Date {r['date']}"
-            for r in fresh) + '\n\nNote: signals are heuristic and not trading advice.')
-        with smtplib.SMTP(os.environ['SMTP_HOST'], int(os.environ['SMTP_PORT']), timeout=30) as smtp:
-            smtp.starttls()
-            smtp.login(os.environ['SMTP_USER'], os.environ['SMTP_PASSWORD'])
-            smtp.send_message(message)
-        print(f'Sent {len(fresh)} alerts')
-    else:
-        print('No new alerts')
-    STATE.write_text(json.dumps(active, indent=2), encoding='utf-8')
+    payload = json.loads(OUT.read_text(encoding="utf-8"))
 
-if __name__ == '__main__': notify()
+    scanned = payload["scanned"]
+    universe = payload["universe_size"]
+
+    if scanned < max(1, int(universe * 0.8)):
+        raise RuntimeError("Insufficient scan coverage; alerts suppressed")
+
+    previous = (
+        json.loads(STATE.read_text(encoding="utf-8"))
+        if STATE.exists()
+        else {}
+    )
+
+    active = {
+        r["ticker"]: f'{r["date"]}:{r["signal"]}'
+        for r in payload["results"]
+        if r["signal"] != "NONE"
+    }
+
+    fresh = [
+        r for r in payload["results"]
+        if r["ticker"] in active
+        and previous.get(r["ticker"]) != active[r["ticker"]]
+    ]
+
+    webhook = os.getenv("DISCORD_WEBHOOK_URL", "").strip()
+
+    if not webhook:
+        raise RuntimeError("DISCORD_WEBHOOK_URL is missing")
+
+    if fresh:
+        lines = [
+            f'{r["ticker"]} | {r["signal"]} | '
+            f'Close ${r["close"]} | Support ${r["support"]} | '
+            f'Distance {r["distance_pct"]}%'
+            for r in fresh
+        ]
+
+        # Discord messages must be under 2,000 characters.
+        # Split signals into small batches.
+        for start in range(0, len(lines), 10):
+            batch = lines[start:start + 10]
+
+            message = (
+                "📊 **StockRadar — New Daily Signals**\n"
+                + "\n".join(batch)
+                + "\n\nResearch only. Not financial advice."
+            )
+
+            request = urllib.request.Request(
+                webhook,
+                data=json.dumps({
+                    "username": "StockRadar",
+                    "content": message[:1900],
+                }).encode("utf-8"),
+                headers={
+                    "Content-Type": "application/json",
+                    "User-Agent": "StockRadar/1.0",
+                },
+                method="POST",
+            )
+
+            try:
+                with urllib.request.urlopen(
+                    request, timeout=20
+                ) as response:
+                    print("Discord response:", response.status)
+            except urllib.error.HTTPError as error:
+                print("Discord status:", error.code)
+                raise
+
+        print(f"Sent {len(fresh)} new Discord signals")
+    else:
+        print("No new alerts")
+
+    STATE.parent.mkdir(parents=True, exist_ok=True)
+    STATE.write_text(
+        json.dumps(active, indent=2),
+        encoding="utf-8",
+    )
+
+
+if __name__ == "__main__":
+    notify()
