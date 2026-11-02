@@ -78,17 +78,25 @@ if choices:
         fig = go.Figure(data=[go.Candlestick(x=history.index, open=history.Open, high=history.High,
                                             low=history.Low, close=history.Close, name=ticker)])
         row = next(r for r in rows if r['ticker']==ticker)
-        fig.add_hline(y=row['support'], line_dash='dash', line_color='orange',
-                      annotation_text=f"Support {row['support']}")
-        
-        if row.get('resistance') is not None:
-                fig.add_hline(
-                    y=row['resistance'],
-                    line_dash='dash',
-                    line_color='red',
-                    annotation_text=f"Resistance {row['resistance']}"
-                )
+if row.get('support') is not None:
+    fig.add_hline(
+        y=row['support'],
+        line_dash='dash',
+        line_color='orange',
+        annotation_text=f"Support {row['support']}"
+    )
+
+if row.get('resistance') is not None:
+    fig.add_hline(
+        y=row['resistance'],
+        line_dash='dash',
+        line_color='red',
+        annotation_text=f"Resistance {row['resistance']}"
+    )
         fig.update_layout(template='plotly_dark', height=520, xaxis_rangeslider_visible=False)
         st.plotly_chart(fig, use_container_width=True)
-        st.caption('Horizontal line is an algorithmic pivot reference, not a manually verified support zone.')
+        st.caption(
+    'Support and resistance lines are algorithmic pivot references, '
+    'not manually verified trading zones.'
+)
     except Exception as exc: st.warning(f'Chart temporarily unavailable: {exc}')
