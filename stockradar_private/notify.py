@@ -39,6 +39,16 @@ def notify():
         and previous.get(r["ticker"]) != active[r["ticker"]]
     ]
 
+    if os.getenv("STOCKRADAR_INITIALIZE_ALERTS") == "1":
+        STATE.parent.mkdir(parents=True, exist_ok=True)
+        STATE.write_text(
+            json.dumps(active, indent=2),
+            encoding="utf-8",
+        )
+        print(f"Initialized alert history for {len(active)} stocks.")
+        print("No Discord messages sent.")
+        return
+
     webhook = os.getenv("DISCORD_WEBHOOK_URL", "").strip()
 
     if not webhook:
