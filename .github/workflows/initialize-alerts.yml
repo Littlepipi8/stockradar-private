@@ -28,7 +28,7 @@ jobs:
           STOCKRADAR_INITIALIZE_ALERTS: "1"
         run: python notify.py
 
-      -      - name: Save alert history
+      - name: Save alert history
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
