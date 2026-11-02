@@ -78,11 +78,15 @@ resistance = (
         and 0 <= resistance_distance <= proximity
     )
 
-    resistance_break = (
-        resistance is not None
-        and close[-2] <= resistance
-        and close[-1] > resistance
-    )
+broken_resistances = [
+    float(highs[i])
+    for i in high_pivots
+    if i < len(close) - width
+    and close[-2] <= highs[i]
+    and close[-1] > highs[i]
+]
+
+resistance_break = bool(broken_resistances)
 
 dist = (
     (close[-1] / support - 1) * 100
@@ -94,23 +98,32 @@ near = (
     and 0 <= dist <= proximity
 )
 
-breakdown = (
-    support is not None
-    and close[-2] >= support
-    and close[-1] < support
-)
-    trend = None
-    trend_break = False
-    for j in range(len(piv)-1, 0, -1):
-        i1, i2 = piv[j-1], piv[j]
-        if low[i2] <= low[i1]: continue
-        slope = (low[i2]-low[i1])/(i2-i1)
-        trend = float(low[i2]+slope*(len(close)-1-i2))
-        prior_trend = float(trend-slope)
-        trend_break = close[-2] >= prior_trend and close[-1] < trend
-        break
-    avg_vol = float(np.nanmean(volume[-21:-1]))
-    vol_ratio = float(volume[-1]/avg_vol) if avg_vol > 0 else None
+broken_supports = [
+    float(low[i])
+    for i in piv
+    if i < len(close) - width
+    and close[-2] >= low[i]
+    and close[-1] < low[i]
+]
+
+breakdown = bool(broken_supports)
+
+trend = None
+trend_break = False
+
+for j in range(len(piv) - 1, 0, -1):
+    i1, i2 = piv[j - 1], piv[j]
+    if low[i2] <= low[i1]:
+        continue
+
+    slope = (low[i2] - low[i1]) / (i2 - i1)
+    trend = float(low[i2] + slope * (len(close) - 1 - i2))
+    prior_trend = float(trend - slope)
+    trend_break = close[-2] >= prior_trend and close[-1] < trend
+    break
+
+avg_vol = float(np.nanmean(volume[-21:-1]))
+vol_ratio = float(volume[-1] / avg_vol) if avg_vol > 0 else None
    
     signal = (
         'SUPPORT BREAK' if breakdown else
@@ -125,11 +138,10 @@ breakdown = (
         ticker=symbol,
         date=str(frame.index[-1].date()),
         close=round(float(close[-1]), 2),
-        support=round(support, 2),
+        support=round(support, 2) if support is not None else None,
         resistance=round(resistance, 2) if resistance is not None else None,
-        distance_pct=round(float(dist), 2),
-        resistance_distance_pct=round(float(resistance_distance), 2)
-            if resistance_distance is not None else None,
+        distance_pct=round(float(dist), 2) if dist is not None else None,
+        resistance_distance_pct=round(float(resistance_distance), 2) if resistance_distance is not None else None,
         trendline=round(trend, 2) if trend is not None else None,
         volume_ratio=round(vol_ratio, 2) if vol_ratio is not None else None,
         signal=signal
@@ -155,7 +167,12 @@ def scan(tickers, proximity=2.0, width=5, pause=0.15):
         if idx % 25 == 0: print(f'Processed {idx}/{len(tickers)}', flush=True)
         time.sleep(pause)
     rank = {'SUPPORT BREAK':0, 'TREND BREAK':1, 'RESISTANCE BREAK':2, 'NEAR SUPPORT':3, 'NEAR RESISTANCE':4, 'NONE':5}
-    rows.sort(key=lambda r:(rank[r['signal']], abs(r['distance_pct'])))
+    rows.sort(
+    key=lambda r: (
+        rank[r['signal']],
+        abs(r['distance_pct']) if r['distance_pct'] is not None else float('inf')
+    )
+)
     return dict(generated_at=datetime.now(timezone.utc).isoformat(),
                 universe_size=len(tickers), scanned=len(rows), failed=failed,
                 proximity_pct=proximity, pivot_width=width, results=rows)
