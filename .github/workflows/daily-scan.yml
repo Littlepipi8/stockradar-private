@@ -39,6 +39,7 @@ jobs:
         run: python notify.py
 
       - name: Save scan results
+        if: ${{ success() || failure() }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
