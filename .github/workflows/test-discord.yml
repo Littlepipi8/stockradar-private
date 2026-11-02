@@ -1,0 +1,38 @@
+
+name: Test Discord Alert
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test-discord:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send one Discord test message
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import urllib.request
+
+          url = os.environ.get("DISCORD_WEBHOOK_URL", "")
+          if not url:
+              raise RuntimeError("DISCORD_WEBHOOK_URL secret is missing")
+
+          payload = {
+              "username": "StockRadar",
+              "content": "✅ StockRadar test successful! Discord alerts are connected."
+          }
+
+          request = urllib.request.Request(
+              url,
+              data=json.dumps(payload).encode("utf-8"),
+              headers={"Content-Type": "application/json"},
+              method="POST",
+          )
+
+          with urllib.request.urlopen(request, timeout=20) as response:
+              print("Discord response:", response.status)
+          PY
