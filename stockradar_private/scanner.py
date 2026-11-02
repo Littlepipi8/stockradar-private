@@ -58,17 +58,17 @@ def analyze(symbol, frame, proximity=2.0, width=5):
     high_pivots = pivot_high_indices(highs, width)
 
     # Find the nearest confirmed pivot high at or above the latest close.
-resistance_candidates = [
-    float(highs[i])
-    for i in high_pivots
-    if i < len(close) - width
-    and highs[i] >= close[-1]
-]
+    resistance_candidates = [
+        float(highs[i])
+        for i in high_pivots
+        if i < len(close) - width
+        and highs[i] >= close[-1]
+    ]
 
-resistance = (
-    min(resistance_candidates)
-    if resistance_candidates else None
-)
+    resistance = (
+        min(resistance_candidates)
+        if resistance_candidates else None
+    )
     resistance_distance = (
         (resistance - close[-1]) / resistance * 100
         if resistance is not None else None
@@ -79,52 +79,52 @@ resistance = (
         and 0 <= resistance_distance <= proximity
     )
 
-broken_resistances = [
-    float(highs[i])
-    for i in high_pivots
-    if i < len(close) - width
-    and close[-2] <= highs[i]
-    and close[-1] > highs[i]
-]
+       broken_resistances = [
+        float(highs[i])
+        for i in high_pivots
+        if i < len(close) - width
+        and close[-2] <= highs[i]
+        and close[-1] > highs[i]
+    ]
 
-resistance_break = bool(broken_resistances)
+    resistance_break = bool(broken_resistances)
 
-dist = (
-    (close[-1] / support - 1) * 100
-    if support is not None else None
-)
+    dist = (
+        (close[-1] / support - 1) * 100
+        if support is not None else None
+    )
 
-near = (
-    dist is not None
-    and 0 <= dist <= proximity
-)
+    near = (
+        dist is not None
+        and 0 <= dist <= proximity
+    )
 
-broken_supports = [
-    float(low[i])
-    for i in piv
-    if i < len(close) - width
-    and close[-2] >= low[i]
-    and close[-1] < low[i]
-]
+    broken_supports = [
+        float(low[i])
+        for i in piv
+        if i < len(close) - width
+        and close[-2] >= low[i]
+        and close[-1] < low[i]
+    ]
 
-breakdown = bool(broken_supports)
+    breakdown = bool(broken_supports)
 
-trend = None
-trend_break = False
+    trend = None
+    trend_break = False
 
-for j in range(len(piv) - 1, 0, -1):
-    i1, i2 = piv[j - 1], piv[j]
-    if low[i2] <= low[i1]:
-        continue
+    for j in range(len(piv) - 1, 0, -1):
+        i1, i2 = piv[j - 1], piv[j]
+        if low[i2] <= low[i1]:
+            continue
 
-    slope = (low[i2] - low[i1]) / (i2 - i1)
-    trend = float(low[i2] + slope * (len(close) - 1 - i2))
-    prior_trend = float(trend - slope)
-    trend_break = close[-2] >= prior_trend and close[-1] < trend
-    break
+        slope = (low[i2] - low[i1]) / (i2 - i1)
+        trend = float(low[i2] + slope * (len(close) - 1 - i2))
+        prior_trend = float(trend - slope)
+        trend_break = close[-2] >= prior_trend and close[-1] < trend
+        break
 
-avg_vol = float(np.nanmean(volume[-21:-1]))
-vol_ratio = float(volume[-1] / avg_vol) if avg_vol > 0 else None
+    avg_vol = float(np.nanmean(volume[-21:-1]))
+    vol_ratio = float(volume[-1] / avg_vol) if avg_vol > 0 else None
    
     signal = (
         'SUPPORT BREAK' if breakdown else
