@@ -7,6 +7,7 @@ on:
 jobs:
   test-discord:
     runs-on: ubuntu-latest
+
     steps:
       - name: Send one Discord test message
         env:
@@ -16,6 +17,7 @@ jobs:
           import json
           import os
           import urllib.request
+          import urllib.error
 
           url = os.environ.get("DISCORD_WEBHOOK_URL", "")
           if not url:
@@ -23,16 +25,24 @@ jobs:
 
           payload = {
               "username": "StockRadar",
-              "content": "✅ StockRadar test successful! Discord alerts are connected."
+              "content": "StockRadar test successful! Discord alerts are connected."
           }
 
           request = urllib.request.Request(
               url,
               data=json.dumps(payload).encode("utf-8"),
-              headers={"Content-Type": "application/json"},
+              headers={
+                  "Content-Type": "application/json",
+                  "User-Agent": "StockRadar/1.0",
+              },
               method="POST",
           )
 
-          with urllib.request.urlopen(request, timeout=20) as response:
-              print("Discord response:", response.status)
+          try:
+              with urllib.request.urlopen(request, timeout=20) as response:
+                  print("Discord response:", response.status)
+          except urllib.error.HTTPError as error:
+              print("Discord status:", error.code)
+              print("Discord details:", error.read().decode("utf-8", errors="replace")[:300])
+              raise
           PY
