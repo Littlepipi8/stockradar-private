@@ -41,27 +41,33 @@ def analyze(symbol, frame, proximity=2.0, width=5):
     volume = frame['Volume'].to_numpy(dtype=float)
     piv = pivot_indices(low, width)
     if not piv: return None
-    # Fixed reference: choose most recent pivot below prior close (not today's close).
-    eligible = [i for i in piv if i < len(close)-width and low[i] <= close[-2]*1.04]
-    if not eligible: return None
-    anchor = eligible[-1]
-    support = float(low[anchor])
+    # Find the nearest confirmed pivot low at or below the latest close.
+eligible = [
+    i for i in piv
+    if i < len(close) - width
+    and low[i] <= close[-1]
+]
+
+support = (
+    max(float(low[i]) for i in eligible)
+    if eligible else None
+)
     
     highs = frame['High'].to_numpy(dtype=float)
     high_pivots = pivot_high_indices(highs, width)
 
-    resistance_candidates = [
-        float(highs[i])
-        for i in high_pivots
-        if i < len(close) - width
-        and highs[i] >= close[-2] * 0.96
-    ]
+    # Find the nearest confirmed pivot high at or above the latest close.
+resistance_candidates = [
+    float(highs[i])
+    for i in high_pivots
+    if i < len(close) - width
+    and highs[i] >= close[-1]
+]
 
-    resistance = (
-        min(resistance_candidates, key=lambda x: abs(x - close[-2]))
-        if resistance_candidates else None
-    )
-
+resistance = (
+    min(resistance_candidates)
+    if resistance_candidates else None
+)
     resistance_distance = (
         (resistance - close[-1]) / resistance * 100
         if resistance is not None else None
@@ -78,9 +84,21 @@ def analyze(symbol, frame, proximity=2.0, width=5):
         and close[-1] > resistance
     )
 
-    dist = (close[-1]/support - 1)*100
-    near = 0 <= dist <= proximity
-    breakdown = close[-2] >= support and close[-1] < support
+dist = (
+    (close[-1] / support - 1) * 100
+    if support is not None else None
+)
+
+near = (
+    dist is not None
+    and 0 <= dist <= proximity
+)
+
+breakdown = (
+    support is not None
+    and close[-2] >= support
+    and close[-1] < support
+)
     trend = None
     trend_break = False
     for j in range(len(piv)-1, 0, -1):
