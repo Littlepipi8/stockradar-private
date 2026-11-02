@@ -1,0 +1,5005 @@
+{
+  "generated_at": "2026-11-02T13:12:25.771472+00:00",
+  "universe_size": 503,
+  "scanned": 499,
+  "failed": [
+    "HONA",
+    "NFLX",
+    "VYLR",
+    "XYL"
+  ],
+  "proximity_pct": 2.0,
+  "pivot_width": 5,
+  "results": [
+    {
+      "ticker": "PLTR",
+      "date": "2026-10-30",
+      "close": 184.11,
+      "support": 184.45,
+      "distance_pct": -0.18,
+      "trendline": 192.1,
+      "volume_ratio": 1.2,
+      "signal": "SUPPORT BREAK"
+    },
+    {
+      "ticker": "JBHT",
+      "date": "2026-10-30",
+      "close": 221.08,
+      "support": 222.01,
+      "distance_pct": -0.42,
+      "trendline": 296.03,
+      "volume_ratio": 1.4,
+      "signal": "SUPPORT BREAK"
+    },
+    {
+      "ticker": "TT",
+      "date": "2026-10-30",
+      "close": 410.0,
+      "support": 413.97,
+      "distance_pct": -0.96,
+      "trendline": 466.81,
+      "volume_ratio": 1.56,
+      "signal": "SUPPORT BREAK"
+    },
+    {
+      "ticker": "ZBRA",
+      "date": "2026-10-30",
+      "close": 361.26,
+      "support": 365.76,
+      "distance_pct": -1.23,
+      "trendline": 378.68,
+      "volume_ratio": 2.65,
+      "signal": "SUPPORT BREAK"
+    },
+    {
+      "ticker": "KEYS",
+      "date": "2026-10-30",
+      "close": 307.2,
+      "support": 311.43,
+      "distance_pct": -1.36,
+      "trendline": 337.74,
+      "volume_ratio": 1.47,
+      "signal": "SUPPORT BREAK"
+    },
+    {
+      "ticker": "HPQ",
+      "date": "2026-10-30",
+      "close": 28.78,
+      "support": 29.18,
+      "distance_pct": -1.37,
+      "trendline": 34.91,
+      "volume_ratio": 2.58,
+      "signal": "SUPPORT BREAK"
+    },
+    {
+      "ticker": "CMI",
+      "date": "2026-10-30",
+      "close": 500.09,
+      "support": 507.2,
+      "distance_pct": -1.4,
+      "trendline": 705.79,
+      "volume_ratio": 1.31,
+      "signal": "SUPPORT BREAK"
+    },
+    {
+      "ticker": "NTAP",
+      "date": "2026-10-30",
+      "close": 199.18,
+      "support": 202.56,
+      "distance_pct": -1.67,
+      "trendline": 213.04,
+      "volume_ratio": 1.08,
+      "signal": "SUPPORT BREAK"
+    },
+    {
+      "ticker": "NVDA",
+      "date": "2026-10-30",
+      "close": 204.64,
+      "support": 208.93,
+      "distance_pct": -2.05,
+      "trendline": 213.57,
+      "volume_ratio": 1.69,
+      "signal": "SUPPORT BREAK"
+    },
+    {
+      "ticker": "MRVL",
+      "date": "2026-10-30",
+      "close": 196.4,
+      "support": 200.58,
+      "distance_pct": -2.08,
+      "trendline": 266.57,
+      "volume_ratio": 1.99,
+      "signal": "SUPPORT BREAK"
+    },
+    {
+      "ticker": "SOLV",
+      "date": "2026-10-30",
+      "close": 81.33,
+      "support": 83.29,
+      "distance_pct": -2.35,
+      "trendline": 92.02,
+      "volume_ratio": 0.98,
+      "signal": "SUPPORT BREAK"
+    },
+    {
+      "ticker": "QCOM",
+      "date": "2026-10-30",
+      "close": 164.79,
+      "support": 168.84,
+      "distance_pct": -2.4,
+      "trendline": 172.84,
+      "volume_ratio": 2.45,
+      "signal": "SUPPORT BREAK"
+    },
+    {
+      "ticker": "NEM",
+      "date": "2026-10-30",
+      "close": 106.61,
+      "support": 109.84,
+      "distance_pct": -2.94,
+      "trendline": 178.18,
+      "volume_ratio": 1.55,
+      "signal": "SUPPORT BREAK"
+    },
+    {
+      "ticker": "DDOG",
+      "date": "2026-10-30",
+      "close": 235.27,
+      "support": 243.63,
+      "distance_pct": -3.43,
+      "trendline": 258.06,
+      "volume_ratio": 2.16,
+      "signal": "SUPPORT BREAK"
+    },
+    {
+      "ticker": "DELL",
+      "date": "2026-10-30",
+      "close": 424.3,
+      "support": 439.5,
+      "distance_pct": -3.46,
+      "trendline": 617.61,
+      "volume_ratio": 1.67,
+      "signal": "SUPPORT BREAK"
+    },
+    {
+      "ticker": "AVGO",
+      "date": "2026-10-30",
+      "close": 326.08,
+      "support": 343.29,
+      "distance_pct": -5.01,
+      "trendline": 358.74,
+      "volume_ratio": 1.69,
+      "signal": "SUPPORT BREAK"
+    },
+    {
+      "ticker": "CIEN",
+      "date": "2026-10-30",
+      "close": 320.72,
+      "support": 339.33,
+      "distance_pct": -5.48,
+      "trendline": 380.92,
+      "volume_ratio": 0.98,
+      "signal": "SUPPORT BREAK"
+    },
+    {
+      "ticker": "ILMN",
+      "date": "2026-10-30",
+      "close": 235.99,
+      "support": 254.0,
+      "distance_pct": -7.09,
+      "trendline": 299.47,
+      "volume_ratio": 2.28,
+      "signal": "SUPPORT BREAK"
+    },
+    {
+      "ticker": "TWLO",
+      "date": "2026-10-30",
+      "close": 205.03,
+      "support": 236.85,
+      "distance_pct": -13.43,
+      "trendline": 242.2,
+      "volume_ratio": 1.74,
+      "signal": "SUPPORT BREAK"
+    },
+    {
+      "ticker": "INTC",
+      "date": "2026-10-30",
+      "close": 65.76,
+      "support": 84.65,
+      "distance_pct": -22.32,
+      "trendline": 94.07,
+      "volume_ratio": 4.62,
+      "signal": "SUPPORT BREAK"
+    },
+    {
+      "ticker": "RDDT",
+      "date": "2026-10-30",
+      "close": 91.73,
+      "support": 119.27,
+      "distance_pct": -23.09,
+      "trendline": 149.35,
+      "volume_ratio": 6.75,
+      "signal": "SUPPORT BREAK"
+    },
+    {
+      "ticker": "AMD",
+      "date": "2026-10-30",
+      "close": 504.8,
+      "support": 502.6,
+      "distance_pct": 0.44,
+      "trendline": 513.56,
+      "volume_ratio": 2.03,
+      "signal": "TREND BREAK"
+    },
+    {
+      "ticker": "TECH",
+      "date": "2026-10-30",
+      "close": 72.66,
+      "support": 72.33,
+      "distance_pct": 0.46,
+      "trendline": 72.72,
+      "volume_ratio": 0.93,
+      "signal": "TREND BREAK"
+    },
+    {
+      "ticker": "ON",
+      "date": "2026-10-30",
+      "close": 71.67,
+      "support": 71.0,
+      "distance_pct": 0.94,
+      "trendline": 73.72,
+      "volume_ratio": 1.59,
+      "signal": "TREND BREAK"
+    },
+    {
+      "ticker": "AAPL",
+      "date": "2026-10-30",
+      "close": 344.63,
+      "support": 338.7,
+      "distance_pct": 1.75,
+      "trendline": 346.63,
+      "volume_ratio": 1.75,
+      "signal": "TREND BREAK"
+    },
+    {
+      "ticker": "A",
+      "date": "2026-10-30",
+      "close": 174.87,
+      "support": 169.59,
+      "distance_pct": 3.11,
+      "trendline": 177.65,
+      "volume_ratio": 1.33,
+      "signal": "TREND BREAK"
+    },
+    {
+      "ticker": "IEX",
+      "date": "2026-10-30",
+      "close": 233.84,
+      "support": 223.06,
+      "distance_pct": 4.83,
+      "trendline": 236.75,
+      "volume_ratio": 0.81,
+      "signal": "TREND BREAK"
+    },
+    {
+      "ticker": "UNH",
+      "date": "2026-10-30",
+      "close": 406.97,
+      "support": 362.6,
+      "distance_pct": 12.24,
+      "trendline": 409.03,
+      "volume_ratio": 0.71,
+      "signal": "TREND BREAK"
+    },
+    {
+      "ticker": "ALB",
+      "date": "2026-10-30",
+      "close": 91.0,
+      "support": 91.0,
+      "distance_pct": 0.0,
+      "trendline": 173.02,
+      "volume_ratio": 1.52,
+      "signal": "NEAR SUPPORT"
+    },
+    {
+      "ticker": "DASH",
+      "date": "2026-10-30",
+      "close": 178.99,
+      "support": 178.97,
+      "distance_pct": 0.01,
+      "trendline": 179.9,
+      "volume_ratio": 2.18,
+      "signal": "NEAR SUPPORT"
+    },
+    {
+      "ticker": "AES",
+      "date": "2026-10-30",
+      "close": 14.83,
+      "support": 14.76,
+      "distance_pct": 0.51,
+      "trendline": 14.8,
+      "volume_ratio": 0.93,
+      "signal": "NEAR SUPPORT"
+    },
+    {
+      "ticker": "CARR",
+      "date": "2026-10-30",
+      "close": 53.63,
+      "support": 53.35,
+      "distance_pct": 0.53,
+      "trendline": 56.19,
+      "volume_ratio": 1.84,
+      "signal": "NEAR SUPPORT"
+    },
+    {
+      "ticker": "ARE",
+      "date": "2026-10-30",
+      "close": 40.2,
+      "support": 39.95,
+      "distance_pct": 0.63,
+      "trendline": 55.5,
+      "volume_ratio": 0.87,
+      "signal": "NEAR SUPPORT"
+    },
+    {
+      "ticker": "SCHW",
+      "date": "2026-10-30",
+      "close": 88.05,
+      "support": 87.38,
+      "distance_pct": 0.77,
+      "trendline": 119.6,
+      "volume_ratio": 1.35,
+      "signal": "NEAR SUPPORT"
+    },
+    {
+      "ticker": "CSCO",
+      "date": "2026-10-30",
+      "close": 104.51,
+      "support": 103.58,
+      "distance_pct": 0.9,
+      "trendline": 137.97,
+      "volume_ratio": 1.61,
+      "signal": "NEAR SUPPORT"
+    },
+    {
+      "ticker": "LII",
+      "date": "2026-10-30",
+      "close": 344.08,
+      "support": 340.32,
+      "distance_pct": 1.1,
+      "trendline": 352.85,
+      "volume_ratio": 1.22,
+      "signal": "NEAR SUPPORT"
+    },
+    {
+      "ticker": "BSX",
+      "date": "2026-10-30",
+      "close": 41.98,
+      "support": 41.39,
+      "distance_pct": 1.43,
+      "trendline": 43.08,
+      "volume_ratio": 1.23,
+      "signal": "NEAR SUPPORT"
+    },
+    {
+      "ticker": "PTC",
+      "date": "2026-10-30",
+      "close": 195.54,
+      "support": 192.76,
+      "distance_pct": 1.44,
+      "trendline": 234.97,
+      "volume_ratio": 0.35,
+      "signal": "NEAR SUPPORT"
+    },
+    {
+      "ticker": "BAC",
+      "date": "2026-10-30",
+      "close": 50.01,
+      "support": 49.26,
+      "distance_pct": 1.52,
+      "trendline": 65.44,
+      "volume_ratio": 1.06,
+      "signal": "NEAR SUPPORT"
+    },
+    {
+      "ticker": "UHS",
+      "date": "2026-10-30",
+      "close": 176.05,
+      "support": 173.39,
+      "distance_pct": 1.53,
+      "trendline": 178.03,
+      "volume_ratio": 0.93,
+      "signal": "NEAR SUPPORT"
+    },
+    {
+      "ticker": "ODFL",
+      "date": "2026-10-30",
+      "close": 172.56,
+      "support": 169.65,
+      "distance_pct": 1.72,
+      "trendline": 279.24,
+      "volume_ratio": 1.34,
+      "signal": "NEAR SUPPORT"
+    },
+    {
+      "ticker": "HUM",
+      "date": "2026-10-30",
+      "close": 414.5,
+      "support": 406.64,
+      "distance_pct": 1.93,
+      "trendline": 447.23,
+      "volume_ratio": 0.54,
+      "signal": "NEAR SUPPORT"
+    },
+    {
+      "ticker": "DXCM",
+      "date": "2026-10-30",
+      "close": 82.29,
+      "support": 82.86,
+      "distance_pct": -0.69,
+      "trendline": 83.43,
+      "volume_ratio": 1.94,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ESS",
+      "date": "2026-10-30",
+      "close": 264.18,
+      "support": 266.65,
+      "distance_pct": -0.93,
+      "trendline": 267.31,
+      "volume_ratio": 1.73,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ADM",
+      "date": "2026-10-30",
+      "close": 76.91,
+      "support": 78.1,
+      "distance_pct": -1.52,
+      "trendline": 83.05,
+      "volume_ratio": 1.52,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "AMZN",
+      "date": "2026-10-30",
+      "close": 240.35,
+      "support": 244.73,
+      "distance_pct": -1.79,
+      "trendline": 246.02,
+      "volume_ratio": 2.75,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "JPM",
+      "date": "2026-10-30",
+      "close": 337.04,
+      "support": 330.4,
+      "distance_pct": 2.01,
+      "trendline": 332.32,
+      "volume_ratio": 1.15,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "GNRC",
+      "date": "2026-10-30",
+      "close": 197.93,
+      "support": 193.96,
+      "distance_pct": 2.05,
+      "trendline": 283.7,
+      "volume_ratio": 1.61,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "NWS",
+      "date": "2026-10-30",
+      "close": 31.74,
+      "support": 31.08,
+      "distance_pct": 2.12,
+      "trendline": 35.64,
+      "volume_ratio": 1.44,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "TPL",
+      "date": "2026-10-30",
+      "close": 331.68,
+      "support": 324.8,
+      "distance_pct": 2.12,
+      "trendline": 415.16,
+      "volume_ratio": 1.71,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "IVZ",
+      "date": "2026-10-30",
+      "close": 27.76,
+      "support": 27.18,
+      "distance_pct": 2.13,
+      "trendline": 29.76,
+      "volume_ratio": 1.17,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "WYNN",
+      "date": "2026-10-30",
+      "close": 74.66,
+      "support": 73.07,
+      "distance_pct": 2.18,
+      "trendline": 130.79,
+      "volume_ratio": 1.07,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "HPE",
+      "date": "2026-10-30",
+      "close": 55.09,
+      "support": 53.91,
+      "distance_pct": 2.19,
+      "trendline": 92.07,
+      "volume_ratio": 0.89,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "C",
+      "date": "2026-10-30",
+      "close": 122.64,
+      "support": 119.98,
+      "distance_pct": 2.22,
+      "trendline": 130.62,
+      "volume_ratio": 1.51,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "AMP",
+      "date": "2026-10-30",
+      "close": 490.83,
+      "support": 480.12,
+      "distance_pct": 2.23,
+      "trendline": 498.88,
+      "volume_ratio": 1.4,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "GPC",
+      "date": "2026-10-30",
+      "close": 120.9,
+      "support": 123.85,
+      "distance_pct": -2.38,
+      "trendline": 173.28,
+      "volume_ratio": 1.04,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "MET",
+      "date": "2026-10-30",
+      "close": 100.02,
+      "support": 97.66,
+      "distance_pct": 2.42,
+      "trendline": 99.36,
+      "volume_ratio": 1.29,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "GOOG",
+      "date": "2026-10-30",
+      "close": 278.22,
+      "support": 271.2,
+      "distance_pct": 2.59,
+      "trendline": 341.86,
+      "volume_ratio": 2.23,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "TGT",
+      "date": "2026-10-30",
+      "close": 154.38,
+      "support": 150.46,
+      "distance_pct": 2.61,
+      "trendline": 155.42,
+      "volume_ratio": 1.36,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "BAX",
+      "date": "2026-10-30",
+      "close": 23.0,
+      "support": 23.62,
+      "distance_pct": -2.62,
+      "trendline": 24.02,
+      "volume_ratio": 1.82,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "MGM",
+      "date": "2026-10-30",
+      "close": 29.96,
+      "support": 29.19,
+      "distance_pct": 2.64,
+      "trendline": 129.54,
+      "volume_ratio": 1.9,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "EXPD",
+      "date": "2026-10-30",
+      "close": 198.85,
+      "support": 193.69,
+      "distance_pct": 2.66,
+      "trendline": 196.15,
+      "volume_ratio": 1.36,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "RJF",
+      "date": "2026-10-30",
+      "close": 157.22,
+      "support": 152.93,
+      "distance_pct": 2.81,
+      "trendline": 232.27,
+      "volume_ratio": 1.3,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "AME",
+      "date": "2026-10-30",
+      "close": 241.12,
+      "support": 234.43,
+      "distance_pct": 2.85,
+      "trendline": 235.45,
+      "volume_ratio": 1.94,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "FOX",
+      "date": "2026-10-30",
+      "close": 56.2,
+      "support": 54.65,
+      "distance_pct": 2.85,
+      "trendline": 55.64,
+      "volume_ratio": 1.25,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CPAY",
+      "date": "2026-10-30",
+      "close": 400.94,
+      "support": 389.76,
+      "distance_pct": 2.87,
+      "trendline": 394.0,
+      "volume_ratio": 0.87,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "INVH",
+      "date": "2026-10-30",
+      "close": 26.56,
+      "support": 25.82,
+      "distance_pct": 2.87,
+      "trendline": 30.1,
+      "volume_ratio": 1.64,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "UBER",
+      "date": "2026-10-30",
+      "close": 65.25,
+      "support": 67.22,
+      "distance_pct": -2.93,
+      "trendline": 110.87,
+      "volume_ratio": 1.11,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "BA",
+      "date": "2026-10-30",
+      "close": 171.55,
+      "support": 176.77,
+      "distance_pct": -2.95,
+      "trendline": 207.74,
+      "volume_ratio": 0.87,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "GOOGL",
+      "date": "2026-10-30",
+      "close": 279.84,
+      "support": 271.77,
+      "distance_pct": 2.97,
+      "trendline": 346.39,
+      "volume_ratio": 2.12,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "TTWO",
+      "date": "2026-10-30",
+      "close": 190.17,
+      "support": 196.3,
+      "distance_pct": -3.12,
+      "trendline": 284.75,
+      "volume_ratio": 1.58,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "WAB",
+      "date": "2026-10-30",
+      "close": 279.6,
+      "support": 271.14,
+      "distance_pct": 3.12,
+      "trendline": 277.25,
+      "volume_ratio": 0.78,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ETN",
+      "date": "2026-10-30",
+      "close": 369.97,
+      "support": 358.51,
+      "distance_pct": 3.2,
+      "trendline": 399.64,
+      "volume_ratio": 1.48,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "GL",
+      "date": "2026-10-30",
+      "close": 159.08,
+      "support": 154.09,
+      "distance_pct": 3.24,
+      "trendline": 173.32,
+      "volume_ratio": 1.02,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CBRE",
+      "date": "2026-10-30",
+      "close": 128.85,
+      "support": 124.73,
+      "distance_pct": 3.3,
+      "trendline": 188.01,
+      "volume_ratio": 1.23,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "COHR",
+      "date": "2026-10-30",
+      "close": 210.32,
+      "support": 203.55,
+      "distance_pct": 3.33,
+      "trendline": 306.6,
+      "volume_ratio": 1.62,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "PCAR",
+      "date": "2026-10-30",
+      "close": 101.91,
+      "support": 105.44,
+      "distance_pct": -3.35,
+      "trendline": 159.16,
+      "volume_ratio": 1.28,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "FSLR",
+      "date": "2026-10-30",
+      "close": 174.4,
+      "support": 168.6,
+      "distance_pct": 3.44,
+      "trendline": 427.12,
+      "volume_ratio": 1.76,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "FOXA",
+      "date": "2026-10-30",
+      "close": 63.24,
+      "support": 61.12,
+      "distance_pct": 3.47,
+      "trendline": 62.27,
+      "volume_ratio": 1.86,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "NDSN",
+      "date": "2026-10-30",
+      "close": 322.67,
+      "support": 311.55,
+      "distance_pct": 3.57,
+      "trendline": 338.39,
+      "volume_ratio": 1.58,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "PH",
+      "date": "2026-10-30",
+      "close": 899.82,
+      "support": 868.49,
+      "distance_pct": 3.61,
+      "trendline": 964.27,
+      "volume_ratio": 2.25,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "TPR",
+      "date": "2026-10-30",
+      "close": 116.29,
+      "support": 112.21,
+      "distance_pct": 3.64,
+      "trendline": 115.44,
+      "volume_ratio": 1.12,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "PLD",
+      "date": "2026-10-30",
+      "close": 127.98,
+      "support": 123.43,
+      "distance_pct": 3.69,
+      "trendline": 174.63,
+      "volume_ratio": 1.07,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "VST",
+      "date": "2026-10-30",
+      "close": 138.37,
+      "support": 133.44,
+      "distance_pct": 3.69,
+      "trendline": 137.47,
+      "volume_ratio": 0.68,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "DOC",
+      "date": "2026-10-30",
+      "close": 19.03,
+      "support": 18.35,
+      "distance_pct": 3.71,
+      "trendline": 18.48,
+      "volume_ratio": 1.08,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ROST",
+      "date": "2026-10-30",
+      "close": 228.28,
+      "support": 220.1,
+      "distance_pct": 3.72,
+      "trendline": 258.29,
+      "volume_ratio": 1.03,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "STX",
+      "date": "2026-10-30",
+      "close": 644.58,
+      "support": 621.0,
+      "distance_pct": 3.8,
+      "trendline": 826.57,
+      "volume_ratio": 0.96,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "BLK",
+      "date": "2026-10-30",
+      "close": 1147.54,
+      "support": 1105.47,
+      "distance_pct": 3.81,
+      "trendline": 1128.7,
+      "volume_ratio": 0.94,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "BKNG",
+      "date": "2026-10-30",
+      "close": 148.13,
+      "support": 154.06,
+      "distance_pct": -3.85,
+      "trendline": 306.16,
+      "volume_ratio": 1.25,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "GRMN",
+      "date": "2026-10-30",
+      "close": 272.67,
+      "support": 262.47,
+      "distance_pct": 3.89,
+      "trendline": 281.71,
+      "volume_ratio": 1.08,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CFG",
+      "date": "2026-10-30",
+      "close": 63.81,
+      "support": 61.42,
+      "distance_pct": 3.9,
+      "trendline": 61.58,
+      "volume_ratio": 0.73,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "MTB",
+      "date": "2026-10-30",
+      "close": 220.72,
+      "support": 212.28,
+      "distance_pct": 3.98,
+      "trendline": 212.71,
+      "volume_ratio": 0.76,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ITW",
+      "date": "2026-10-30",
+      "close": 278.55,
+      "support": 267.86,
+      "distance_pct": 3.99,
+      "trendline": 272.73,
+      "volume_ratio": 1.28,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CRM",
+      "date": "2026-10-30",
+      "close": 229.17,
+      "support": 220.29,
+      "distance_pct": 4.03,
+      "trendline": 350.91,
+      "volume_ratio": 1.11,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "NWSA",
+      "date": "2026-10-30",
+      "close": 29.12,
+      "support": 27.98,
+      "distance_pct": 4.07,
+      "trendline": 32.11,
+      "volume_ratio": 1.31,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "TEL",
+      "date": "2026-10-30",
+      "close": 213.03,
+      "support": 204.63,
+      "distance_pct": 4.1,
+      "trendline": 224.23,
+      "volume_ratio": 0.95,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "GS",
+      "date": "2026-10-30",
+      "close": 894.55,
+      "support": 859.03,
+      "distance_pct": 4.13,
+      "trendline": 997.87,
+      "volume_ratio": 0.95,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "MU",
+      "date": "2026-10-30",
+      "close": 884.74,
+      "support": 849.25,
+      "distance_pct": 4.18,
+      "trendline": 938.86,
+      "volume_ratio": 1.19,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "MAA",
+      "date": "2026-10-30",
+      "close": 117.21,
+      "support": 112.44,
+      "distance_pct": 4.24,
+      "trendline": 134.81,
+      "volume_ratio": 1.21,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "AMAT",
+      "date": "2026-10-30",
+      "close": 390.09,
+      "support": 372.8,
+      "distance_pct": 4.64,
+      "trendline": 861.76,
+      "volume_ratio": 1.47,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "APTV",
+      "date": "2026-10-30",
+      "close": 43.93,
+      "support": 41.88,
+      "distance_pct": 4.89,
+      "trendline": 43.03,
+      "volume_ratio": 0.88,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "DECK",
+      "date": "2026-10-30",
+      "close": 81.99,
+      "support": 78.12,
+      "distance_pct": 4.95,
+      "trendline": 78.39,
+      "volume_ratio": 0.74,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "BKR",
+      "date": "2026-10-30",
+      "close": 55.23,
+      "support": 52.59,
+      "distance_pct": 5.02,
+      "trendline": 71.95,
+      "volume_ratio": 1.32,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "MS",
+      "date": "2026-10-30",
+      "close": 184.3,
+      "support": 175.37,
+      "distance_pct": 5.09,
+      "trendline": 215.94,
+      "volume_ratio": 1.27,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "JBL",
+      "date": "2026-10-30",
+      "close": 272.72,
+      "support": 259.44,
+      "distance_pct": 5.12,
+      "trendline": 298.26,
+      "volume_ratio": 1.01,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "BEN",
+      "date": "2026-10-30",
+      "close": 31.64,
+      "support": 30.09,
+      "distance_pct": 5.15,
+      "trendline": 38.18,
+      "volume_ratio": 1.07,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "PFG",
+      "date": "2026-10-30",
+      "close": 111.63,
+      "support": 106.07,
+      "distance_pct": 5.24,
+      "trendline": 118.3,
+      "volume_ratio": 1.23,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "PRU",
+      "date": "2026-10-30",
+      "close": 116.45,
+      "support": 110.61,
+      "distance_pct": 5.28,
+      "trendline": 117.32,
+      "volume_ratio": 1.24,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "FTNT",
+      "date": "2026-10-30",
+      "close": 136.08,
+      "support": 143.77,
+      "distance_pct": -5.35,
+      "trendline": 169.22,
+      "volume_ratio": 1.83,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "APO",
+      "date": "2026-10-30",
+      "close": 115.84,
+      "support": 109.91,
+      "distance_pct": 5.4,
+      "trendline": 176.18,
+      "volume_ratio": 1.52,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "XYZ",
+      "date": "2026-10-30",
+      "close": 76.22,
+      "support": 72.28,
+      "distance_pct": 5.45,
+      "trendline": 83.23,
+      "volume_ratio": 1.31,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "RMD",
+      "date": "2026-10-30",
+      "close": 229.94,
+      "support": 218.03,
+      "distance_pct": 5.46,
+      "trendline": 220.82,
+      "volume_ratio": 3.06,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "PCG",
+      "date": "2026-10-30",
+      "close": 13.18,
+      "support": 12.49,
+      "distance_pct": 5.52,
+      "trendline": 12.7,
+      "volume_ratio": 0.6,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "LVS",
+      "date": "2026-10-30",
+      "close": 36.97,
+      "support": 35.03,
+      "distance_pct": 5.54,
+      "trendline": 51.12,
+      "volume_ratio": 1.0,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "VMRK",
+      "date": "2026-10-30",
+      "close": 61.9,
+      "support": 58.64,
+      "distance_pct": 5.56,
+      "trendline": 66.84,
+      "volume_ratio": 1.17,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "FRT",
+      "date": "2026-10-30",
+      "close": 110.19,
+      "support": 104.36,
+      "distance_pct": 5.59,
+      "trendline": 116.87,
+      "volume_ratio": 2.46,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CHRW",
+      "date": "2026-10-30",
+      "close": 124.61,
+      "support": 132.05,
+      "distance_pct": -5.63,
+      "trendline": 133.91,
+      "volume_ratio": 1.8,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CPT",
+      "date": "2026-10-30",
+      "close": 100.69,
+      "support": 95.3,
+      "distance_pct": 5.66,
+      "trendline": 131.32,
+      "volume_ratio": 0.99,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ROK",
+      "date": "2026-10-30",
+      "close": 436.2,
+      "support": 412.65,
+      "distance_pct": 5.71,
+      "trendline": 415.8,
+      "volume_ratio": 0.71,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "TKO",
+      "date": "2026-10-30",
+      "close": 180.68,
+      "support": 170.92,
+      "distance_pct": 5.71,
+      "trendline": 181.5,
+      "volume_ratio": 1.07,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CAT",
+      "date": "2026-10-30",
+      "close": 622.75,
+      "support": 660.51,
+      "distance_pct": -5.72,
+      "trendline": 861.51,
+      "volume_ratio": 1.75,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "HBAN",
+      "date": "2026-10-30",
+      "close": 15.78,
+      "support": 14.92,
+      "distance_pct": 5.76,
+      "trendline": 15.05,
+      "volume_ratio": 0.8,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "TMUS",
+      "date": "2026-10-30",
+      "close": 156.44,
+      "support": 147.9,
+      "distance_pct": 5.77,
+      "trendline": 190.61,
+      "volume_ratio": 1.7,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "NRG",
+      "date": "2026-10-30",
+      "close": 96.06,
+      "support": 90.8,
+      "distance_pct": 5.79,
+      "trendline": 218.66,
+      "volume_ratio": 0.67,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "IQV",
+      "date": "2026-10-30",
+      "close": 267.33,
+      "support": 252.56,
+      "distance_pct": 5.85,
+      "trendline": 252.58,
+      "volume_ratio": 0.84,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "TDG",
+      "date": "2026-10-30",
+      "close": 1146.81,
+      "support": 1082.59,
+      "distance_pct": 5.93,
+      "trendline": 1083.99,
+      "volume_ratio": 1.15,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "HUBB",
+      "date": "2026-10-30",
+      "close": 422.44,
+      "support": 449.11,
+      "distance_pct": -5.94,
+      "trendline": 470.75,
+      "volume_ratio": 1.24,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "JCI",
+      "date": "2026-10-30",
+      "close": 149.03,
+      "support": 140.66,
+      "distance_pct": 5.95,
+      "trendline": 141.57,
+      "volume_ratio": 1.22,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "REG",
+      "date": "2026-10-30",
+      "close": 74.59,
+      "support": 70.38,
+      "distance_pct": 5.98,
+      "trendline": 90.06,
+      "volume_ratio": 0.96,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "RL",
+      "date": "2026-10-30",
+      "close": 392.87,
+      "support": 370.69,
+      "distance_pct": 5.98,
+      "trendline": 385.49,
+      "volume_ratio": 1.08,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "TROW",
+      "date": "2026-10-30",
+      "close": 103.9,
+      "support": 98.04,
+      "distance_pct": 5.98,
+      "trendline": 119.57,
+      "volume_ratio": 1.7,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "HSY",
+      "date": "2026-10-30",
+      "close": 165.61,
+      "support": 156.16,
+      "distance_pct": 6.05,
+      "trendline": 199.3,
+      "volume_ratio": 1.45,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "VRSN",
+      "date": "2026-10-30",
+      "close": 307.21,
+      "support": 289.66,
+      "distance_pct": 6.06,
+      "trendline": 293.67,
+      "volume_ratio": 1.5,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ABBV",
+      "date": "2026-10-30",
+      "close": 294.89,
+      "support": 278.01,
+      "distance_pct": 6.07,
+      "trendline": 287.32,
+      "volume_ratio": 1.32,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "NTRS",
+      "date": "2026-10-30",
+      "close": 169.16,
+      "support": 159.41,
+      "distance_pct": 6.12,
+      "trendline": 199.79,
+      "volume_ratio": 0.96,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CEG",
+      "date": "2026-10-30",
+      "close": 262.38,
+      "support": 247.2,
+      "distance_pct": 6.14,
+      "trendline": 281.37,
+      "volume_ratio": 0.77,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ORLY",
+      "date": "2026-10-30",
+      "close": 88.12,
+      "support": 83.01,
+      "distance_pct": 6.16,
+      "trendline": 83.35,
+      "volume_ratio": 1.82,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "VTR",
+      "date": "2026-10-30",
+      "close": 84.8,
+      "support": 79.85,
+      "distance_pct": 6.2,
+      "trendline": 144.66,
+      "volume_ratio": 1.3,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "LRCX",
+      "date": "2026-10-30",
+      "close": 239.11,
+      "support": 225.14,
+      "distance_pct": 6.21,
+      "trendline": 423.41,
+      "volume_ratio": 1.84,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "HON",
+      "date": "2026-10-30",
+      "close": 218.33,
+      "support": 205.2,
+      "distance_pct": 6.4,
+      "trendline": 205.78,
+      "volume_ratio": 1.2,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "SYF",
+      "date": "2026-10-30",
+      "close": 75.35,
+      "support": 70.82,
+      "distance_pct": 6.4,
+      "trendline": 72.7,
+      "volume_ratio": 0.87,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ORCL",
+      "date": "2026-10-30",
+      "close": 130.67,
+      "support": 122.76,
+      "distance_pct": 6.44,
+      "trendline": 148.56,
+      "volume_ratio": 1.3,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "COF",
+      "date": "2026-10-30",
+      "close": 204.85,
+      "support": 192.43,
+      "distance_pct": 6.45,
+      "trendline": 195.96,
+      "volume_ratio": 1.15,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "P",
+      "date": "2026-10-30",
+      "close": 126.98,
+      "support": 119.15,
+      "distance_pct": 6.57,
+      "trendline": 123.78,
+      "volume_ratio": 0.78,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "SMCI",
+      "date": "2026-10-30",
+      "close": 32.95,
+      "support": 30.92,
+      "distance_pct": 6.57,
+      "trendline": 44.65,
+      "volume_ratio": 1.08,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "VTRS",
+      "date": "2026-10-30",
+      "close": 19.04,
+      "support": 17.86,
+      "distance_pct": 6.61,
+      "trendline": 18.3,
+      "volume_ratio": 1.02,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "WELL",
+      "date": "2026-10-30",
+      "close": 234.6,
+      "support": 220.0,
+      "distance_pct": 6.64,
+      "trendline": 260.6,
+      "volume_ratio": 1.27,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "EMR",
+      "date": "2026-10-30",
+      "close": 164.94,
+      "support": 154.52,
+      "distance_pct": 6.74,
+      "trendline": 156.86,
+      "volume_ratio": 1.47,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "DHR",
+      "date": "2026-10-30",
+      "close": 232.23,
+      "support": 217.55,
+      "distance_pct": 6.75,
+      "trendline": 220.74,
+      "volume_ratio": 0.83,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "USB",
+      "date": "2026-10-30",
+      "close": 59.45,
+      "support": 55.63,
+      "distance_pct": 6.87,
+      "trendline": 77.73,
+      "volume_ratio": 0.96,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "WFC",
+      "date": "2026-10-30",
+      "close": 83.4,
+      "support": 78.04,
+      "distance_pct": 6.87,
+      "trendline": 78.09,
+      "volume_ratio": 0.79,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "PEG",
+      "date": "2026-10-30",
+      "close": 74.29,
+      "support": 69.5,
+      "distance_pct": 6.89,
+      "trendline": 73.15,
+      "volume_ratio": 1.03,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "SHW",
+      "date": "2026-10-30",
+      "close": 332.61,
+      "support": 311.12,
+      "distance_pct": 6.91,
+      "trendline": 437.99,
+      "volume_ratio": 1.33,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "HSIC",
+      "date": "2026-10-30",
+      "close": 84.88,
+      "support": 79.37,
+      "distance_pct": 6.94,
+      "trendline": 97.44,
+      "volume_ratio": 0.97,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ES",
+      "date": "2026-10-30",
+      "close": 68.55,
+      "support": 64.08,
+      "distance_pct": 6.98,
+      "trendline": 64.9,
+      "volume_ratio": 2.29,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "EQT",
+      "date": "2026-10-30",
+      "close": 55.38,
+      "support": 51.73,
+      "distance_pct": 7.06,
+      "trendline": 55.65,
+      "volume_ratio": 0.98,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "RVTY",
+      "date": "2026-10-30",
+      "close": 157.0,
+      "support": 146.63,
+      "distance_pct": 7.07,
+      "trendline": 156.26,
+      "volume_ratio": 1.96,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "F",
+      "date": "2026-10-30",
+      "close": 12.25,
+      "support": 11.44,
+      "distance_pct": 7.08,
+      "trendline": 14.91,
+      "volume_ratio": 1.09,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "L",
+      "date": "2026-10-30",
+      "close": 111.32,
+      "support": 103.89,
+      "distance_pct": 7.15,
+      "trendline": 133.31,
+      "volume_ratio": 1.15,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "MKC",
+      "date": "2026-10-30",
+      "close": 47.29,
+      "support": 44.09,
+      "distance_pct": 7.26,
+      "trendline": 46.03,
+      "volume_ratio": 1.06,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "NVR",
+      "date": "2026-10-30",
+      "close": 5958.56,
+      "support": 5550.0,
+      "distance_pct": 7.36,
+      "trendline": 6423.45,
+      "volume_ratio": 0.88,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "MSFT",
+      "date": "2026-10-30",
+      "close": 521.91,
+      "support": 486.0,
+      "distance_pct": 7.39,
+      "trendline": 507.93,
+      "volume_ratio": 1.69,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CDNS",
+      "date": "2026-10-30",
+      "close": 327.89,
+      "support": 305.19,
+      "distance_pct": 7.44,
+      "trendline": 310.93,
+      "volume_ratio": 0.87,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "BE",
+      "date": "2026-10-30",
+      "close": 203.17,
+      "support": 189.0,
+      "distance_pct": 7.5,
+      "trendline": 338.73,
+      "volume_ratio": 1.11,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "MPWR",
+      "date": "2026-10-30",
+      "close": 1211.63,
+      "support": 1126.57,
+      "distance_pct": 7.55,
+      "trendline": 1312.5,
+      "volume_ratio": 2.77,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "EME",
+      "date": "2026-10-30",
+      "close": 679.55,
+      "support": 631.7,
+      "distance_pct": 7.57,
+      "trendline": 728.52,
+      "volume_ratio": 1.35,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "O",
+      "date": "2026-10-30",
+      "close": 56.93,
+      "support": 52.9,
+      "distance_pct": 7.62,
+      "trendline": 62.96,
+      "volume_ratio": 1.27,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "AXP",
+      "date": "2026-10-30",
+      "close": 319.11,
+      "support": 296.28,
+      "distance_pct": 7.7,
+      "trendline": 364.1,
+      "volume_ratio": 0.84,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "MRK",
+      "date": "2026-10-30",
+      "close": 149.52,
+      "support": 138.8,
+      "distance_pct": 7.72,
+      "trendline": 192.35,
+      "volume_ratio": 1.21,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "SW",
+      "date": "2026-10-30",
+      "close": 43.09,
+      "support": 40.0,
+      "distance_pct": 7.73,
+      "trendline": 59.76,
+      "volume_ratio": 1.13,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "AKAM",
+      "date": "2026-10-30",
+      "close": 92.72,
+      "support": 86.06,
+      "distance_pct": 7.74,
+      "trendline": 108.84,
+      "volume_ratio": 1.1,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "DVN",
+      "date": "2026-10-30",
+      "close": 52.15,
+      "support": 48.4,
+      "distance_pct": 7.75,
+      "trendline": 49.4,
+      "volume_ratio": 1.1,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "UDR",
+      "date": "2026-10-30",
+      "close": 35.52,
+      "support": 32.96,
+      "distance_pct": 7.77,
+      "trendline": 49.41,
+      "volume_ratio": 1.36,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "GEV",
+      "date": "2026-10-30",
+      "close": 857.87,
+      "support": 795.95,
+      "distance_pct": 7.78,
+      "trendline": 1094.05,
+      "volume_ratio": 1.59,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "GLW",
+      "date": "2026-10-30",
+      "close": 123.31,
+      "support": 114.28,
+      "distance_pct": 7.9,
+      "trendline": 169.99,
+      "volume_ratio": 1.45,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CVS",
+      "date": "2026-10-30",
+      "close": 90.25,
+      "support": 83.63,
+      "distance_pct": 7.92,
+      "trendline": 146.45,
+      "volume_ratio": 0.97,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "LYV",
+      "date": "2026-10-30",
+      "close": 177.89,
+      "support": 164.82,
+      "distance_pct": 7.93,
+      "trendline": 218.09,
+      "volume_ratio": 1.12,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "IBKR",
+      "date": "2026-10-30",
+      "close": 76.9,
+      "support": 83.6,
+      "distance_pct": -8.01,
+      "trendline": 111.45,
+      "volume_ratio": 1.36,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "DLR",
+      "date": "2026-10-30",
+      "close": 180.7,
+      "support": 167.17,
+      "distance_pct": 8.09,
+      "trendline": 251.91,
+      "volume_ratio": 2.02,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CF",
+      "date": "2026-10-30",
+      "close": 123.3,
+      "support": 114.05,
+      "distance_pct": 8.11,
+      "trendline": 117.06,
+      "volume_ratio": 0.74,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "DAL",
+      "date": "2026-10-30",
+      "close": 80.15,
+      "support": 74.14,
+      "distance_pct": 8.11,
+      "trendline": 79.55,
+      "volume_ratio": 0.6,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "SNA",
+      "date": "2026-10-30",
+      "close": 355.66,
+      "support": 328.86,
+      "distance_pct": 8.15,
+      "trendline": 522.35,
+      "volume_ratio": 1.2,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "FCX",
+      "date": "2026-10-30",
+      "close": 62.47,
+      "support": 68.05,
+      "distance_pct": -8.2,
+      "trendline": 69.97,
+      "volume_ratio": 1.64,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "MOS",
+      "date": "2026-10-30",
+      "close": 18.39,
+      "support": 16.99,
+      "distance_pct": 8.24,
+      "trendline": 24.51,
+      "volume_ratio": 0.84,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ISRG",
+      "date": "2026-10-30",
+      "close": 432.01,
+      "support": 398.99,
+      "distance_pct": 8.28,
+      "trendline": 404.75,
+      "volume_ratio": 1.5,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "TFC",
+      "date": "2026-10-30",
+      "close": 48.79,
+      "support": 45.06,
+      "distance_pct": 8.28,
+      "trendline": 56.78,
+      "volume_ratio": 0.91,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "MCO",
+      "date": "2026-10-30",
+      "close": 493.91,
+      "support": 455.65,
+      "distance_pct": 8.4,
+      "trendline": 465.15,
+      "volume_ratio": 1.77,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "GE",
+      "date": "2026-10-30",
+      "close": 301.8,
+      "support": 278.37,
+      "distance_pct": 8.42,
+      "trendline": 402.94,
+      "volume_ratio": 0.98,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "DOV",
+      "date": "2026-10-30",
+      "close": 207.74,
+      "support": 191.56,
+      "distance_pct": 8.45,
+      "trendline": 194.08,
+      "volume_ratio": 2.44,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "STT",
+      "date": "2026-10-30",
+      "close": 169.77,
+      "support": 156.5,
+      "distance_pct": 8.48,
+      "trendline": 205.31,
+      "volume_ratio": 0.58,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ZBH",
+      "date": "2026-10-30",
+      "close": 94.52,
+      "support": 87.11,
+      "distance_pct": 8.51,
+      "trendline": 117.9,
+      "volume_ratio": 1.87,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "WMB",
+      "date": "2026-10-30",
+      "close": 74.35,
+      "support": 68.5,
+      "distance_pct": 8.54,
+      "trendline": 69.73,
+      "volume_ratio": 0.95,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "HWM",
+      "date": "2026-10-30",
+      "close": 199.22,
+      "support": 183.52,
+      "distance_pct": 8.55,
+      "trendline": 224.45,
+      "volume_ratio": 0.99,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ALGN",
+      "date": "2026-10-30",
+      "close": 149.89,
+      "support": 138.05,
+      "distance_pct": 8.58,
+      "trendline": 219.97,
+      "volume_ratio": 1.09,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "KEY",
+      "date": "2026-10-30",
+      "close": 21.12,
+      "support": 19.45,
+      "distance_pct": 8.59,
+      "trendline": 24.72,
+      "volume_ratio": 1.04,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "IRM",
+      "date": "2026-10-30",
+      "close": 116.55,
+      "support": 107.2,
+      "distance_pct": 8.72,
+      "trendline": 137.96,
+      "volume_ratio": 0.81,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ABT",
+      "date": "2026-10-30",
+      "close": 106.2,
+      "support": 97.67,
+      "distance_pct": 8.73,
+      "trendline": 99.39,
+      "volume_ratio": 0.85,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "SBAC",
+      "date": "2026-10-30",
+      "close": 187.15,
+      "support": 172.1,
+      "distance_pct": 8.74,
+      "trendline": 179.25,
+      "volume_ratio": 0.79,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "EXE",
+      "date": "2026-10-30",
+      "close": 90.55,
+      "support": 83.25,
+      "distance_pct": 8.77,
+      "trendline": 109.25,
+      "volume_ratio": 0.65,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "TER",
+      "date": "2026-10-30",
+      "close": 274.37,
+      "support": 300.88,
+      "distance_pct": -8.81,
+      "trendline": 328.7,
+      "volume_ratio": 2.67,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "EQIX",
+      "date": "2026-10-30",
+      "close": 1013.7,
+      "support": 931.2,
+      "distance_pct": 8.86,
+      "trendline": 1006.24,
+      "volume_ratio": 1.22,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "SYY",
+      "date": "2026-10-30",
+      "close": 82.9,
+      "support": 76.09,
+      "distance_pct": 8.95,
+      "trendline": 88.68,
+      "volume_ratio": 1.08,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "SYK",
+      "date": "2026-10-30",
+      "close": 291.86,
+      "support": 267.84,
+      "distance_pct": 8.97,
+      "trendline": 272.05,
+      "volume_ratio": 2.57,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ROL",
+      "date": "2026-10-30",
+      "close": 34.66,
+      "support": 31.8,
+      "distance_pct": 8.99,
+      "trendline": 32.96,
+      "volume_ratio": 0.72,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "WDAY",
+      "date": "2026-10-30",
+      "close": 197.82,
+      "support": 181.47,
+      "distance_pct": 9.01,
+      "trendline": 183.97,
+      "volume_ratio": 1.13,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "KLAC",
+      "date": "2026-10-30",
+      "close": 157.91,
+      "support": 144.82,
+      "distance_pct": 9.04,
+      "trendline": 481.85,
+      "volume_ratio": 2.04,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "VICI",
+      "date": "2026-10-30",
+      "close": 24.46,
+      "support": 22.42,
+      "distance_pct": 9.07,
+      "trendline": 25.51,
+      "volume_ratio": 1.22,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "UNP",
+      "date": "2026-10-30",
+      "close": 304.0,
+      "support": 278.59,
+      "distance_pct": 9.12,
+      "trendline": 282.55,
+      "volume_ratio": 1.16,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ADI",
+      "date": "2026-10-30",
+      "close": 417.11,
+      "support": 382.0,
+      "distance_pct": 9.19,
+      "trendline": 386.86,
+      "volume_ratio": 2.32,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ADSK",
+      "date": "2026-10-30",
+      "close": 249.61,
+      "support": 228.59,
+      "distance_pct": 9.2,
+      "trendline": 260.67,
+      "volume_ratio": 1.43,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ANET",
+      "date": "2026-10-30",
+      "close": 168.86,
+      "support": 186.11,
+      "distance_pct": -9.27,
+      "trendline": 213.54,
+      "volume_ratio": 1.44,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "PNC",
+      "date": "2026-10-30",
+      "close": 227.86,
+      "support": 208.49,
+      "distance_pct": 9.29,
+      "trendline": 297.68,
+      "volume_ratio": 0.7,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "DE",
+      "date": "2026-10-30",
+      "close": 675.48,
+      "support": 618.0,
+      "distance_pct": 9.3,
+      "trendline": 808.6,
+      "volume_ratio": 1.18,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "PANW",
+      "date": "2026-10-30",
+      "close": 365.87,
+      "support": 334.75,
+      "distance_pct": 9.3,
+      "trendline": 337.99,
+      "volume_ratio": 1.42,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "RF",
+      "date": "2026-10-30",
+      "close": 28.57,
+      "support": 26.14,
+      "distance_pct": 9.3,
+      "trendline": 33.26,
+      "volume_ratio": 1.02,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "BNY",
+      "date": "2026-10-30",
+      "close": 147.11,
+      "support": 134.54,
+      "distance_pct": 9.34,
+      "trendline": 170.53,
+      "volume_ratio": 0.79,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "BRK-B",
+      "date": "2026-10-30",
+      "close": 542.49,
+      "support": 495.96,
+      "distance_pct": 9.38,
+      "trendline": 518.04,
+      "volume_ratio": 1.05,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "FDX",
+      "date": "2026-10-30",
+      "close": 313.28,
+      "support": 286.38,
+      "distance_pct": 9.39,
+      "trendline": 292.98,
+      "volume_ratio": 2.17,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "MMM",
+      "date": "2026-10-30",
+      "close": 174.34,
+      "support": 159.21,
+      "distance_pct": 9.5,
+      "trendline": 165.61,
+      "volume_ratio": 0.88,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "VLO",
+      "date": "2026-10-30",
+      "close": 399.66,
+      "support": 364.96,
+      "distance_pct": 9.51,
+      "trendline": 407.53,
+      "volume_ratio": 1.64,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "BXP",
+      "date": "2026-10-30",
+      "close": 62.8,
+      "support": 57.33,
+      "distance_pct": 9.54,
+      "trendline": 73.37,
+      "volume_ratio": 1.11,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "DVA",
+      "date": "2026-10-30",
+      "close": 187.5,
+      "support": 171.09,
+      "distance_pct": 9.59,
+      "trendline": 175.93,
+      "volume_ratio": 2.48,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "VZ",
+      "date": "2026-10-30",
+      "close": 44.73,
+      "support": 40.81,
+      "distance_pct": 9.61,
+      "trendline": 59.53,
+      "volume_ratio": 0.9,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "DIS",
+      "date": "2026-10-30",
+      "close": 110.94,
+      "support": 101.15,
+      "distance_pct": 9.68,
+      "trendline": 114.76,
+      "volume_ratio": 0.82,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CHTR",
+      "date": "2026-10-30",
+      "close": 111.49,
+      "support": 101.63,
+      "distance_pct": 9.7,
+      "trendline": 251.36,
+      "volume_ratio": 0.75,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "TMO",
+      "date": "2026-10-30",
+      "close": 697.0,
+      "support": 635.32,
+      "distance_pct": 9.71,
+      "trendline": 668.08,
+      "volume_ratio": 0.88,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "FITB",
+      "date": "2026-10-30",
+      "close": 53.87,
+      "support": 49.09,
+      "distance_pct": 9.74,
+      "trendline": 63.44,
+      "volume_ratio": 0.88,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "TDY",
+      "date": "2026-10-30",
+      "close": 658.23,
+      "support": 599.73,
+      "distance_pct": 9.75,
+      "trendline": 622.86,
+      "volume_ratio": 1.43,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "WAT",
+      "date": "2026-10-30",
+      "close": 462.72,
+      "support": 421.61,
+      "distance_pct": 9.75,
+      "trendline": 427.39,
+      "volume_ratio": 1.47,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "DD",
+      "date": "2026-10-30",
+      "close": 140.05,
+      "support": 127.55,
+      "distance_pct": 9.8,
+      "trendline": 135.41,
+      "volume_ratio": 1.34,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "FE",
+      "date": "2026-10-30",
+      "close": 46.91,
+      "support": 42.67,
+      "distance_pct": 9.94,
+      "trendline": 53.74,
+      "volume_ratio": 1.08,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "GWW",
+      "date": "2026-10-30",
+      "close": 1359.17,
+      "support": 1236.29,
+      "distance_pct": 9.94,
+      "trendline": 1444.31,
+      "volume_ratio": 1.03,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "STE",
+      "date": "2026-10-30",
+      "close": 227.12,
+      "support": 206.53,
+      "distance_pct": 9.97,
+      "trendline": 213.66,
+      "volume_ratio": 1.42,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "IDXX",
+      "date": "2026-10-30",
+      "close": 551.21,
+      "support": 501.17,
+      "distance_pct": 9.98,
+      "trendline": 501.7,
+      "volume_ratio": 2.27,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "PYPL",
+      "date": "2026-10-30",
+      "close": 57.01,
+      "support": 51.81,
+      "distance_pct": 10.03,
+      "trendline": 54.84,
+      "volume_ratio": 1.38,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "FFIV",
+      "date": "2026-10-30",
+      "close": 338.34,
+      "support": 376.21,
+      "distance_pct": -10.07,
+      "trendline": 444.0,
+      "volume_ratio": 3.06,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "HOOD",
+      "date": "2026-10-30",
+      "close": 84.99,
+      "support": 94.52,
+      "distance_pct": -10.08,
+      "trendline": 104.69,
+      "volume_ratio": 1.42,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "HIG",
+      "date": "2026-10-30",
+      "close": 132.59,
+      "support": 120.42,
+      "distance_pct": 10.11,
+      "trendline": 139.89,
+      "volume_ratio": 1.84,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "LUV",
+      "date": "2026-10-30",
+      "close": 42.43,
+      "support": 38.5,
+      "distance_pct": 10.21,
+      "trendline": 38.76,
+      "volume_ratio": 0.6,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ADBE",
+      "date": "2026-10-30",
+      "close": 250.23,
+      "support": 227.0,
+      "distance_pct": 10.23,
+      "trendline": 232.66,
+      "volume_ratio": 1.41,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "UAL",
+      "date": "2026-10-30",
+      "close": 104.24,
+      "support": 94.54,
+      "distance_pct": 10.26,
+      "trendline": 106.0,
+      "volume_ratio": 0.95,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "FAST",
+      "date": "2026-10-30",
+      "close": 51.91,
+      "support": 47.06,
+      "distance_pct": 10.3,
+      "trendline": 50.38,
+      "volume_ratio": 1.37,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "T",
+      "date": "2026-10-30",
+      "close": 21.41,
+      "support": 19.41,
+      "distance_pct": 10.32,
+      "trendline": 27.95,
+      "volume_ratio": 0.95,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ABNB",
+      "date": "2026-10-30",
+      "close": 164.39,
+      "support": 149.0,
+      "distance_pct": 10.33,
+      "trendline": 157.34,
+      "volume_ratio": 1.25,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "WDC",
+      "date": "2026-10-30",
+      "close": 366.11,
+      "support": 331.81,
+      "distance_pct": 10.34,
+      "trendline": 427.44,
+      "volume_ratio": 0.88,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "OMC",
+      "date": "2026-10-30",
+      "close": 81.26,
+      "support": 73.63,
+      "distance_pct": 10.36,
+      "trendline": 77.04,
+      "volume_ratio": 1.39,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "KO",
+      "date": "2026-10-30",
+      "close": 94.08,
+      "support": 85.13,
+      "distance_pct": 10.51,
+      "trendline": 90.28,
+      "volume_ratio": 1.1,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "IR",
+      "date": "2026-10-30",
+      "close": 80.05,
+      "support": 72.36,
+      "distance_pct": 10.63,
+      "trendline": 79.48,
+      "volume_ratio": 1.42,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "SPG",
+      "date": "2026-10-30",
+      "close": 217.75,
+      "support": 196.76,
+      "distance_pct": 10.67,
+      "trendline": 231.98,
+      "volume_ratio": 1.36,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "META",
+      "date": "2026-10-30",
+      "close": 614.99,
+      "support": 555.66,
+      "distance_pct": 10.68,
+      "trendline": 807.69,
+      "volume_ratio": 1.12,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "DPZ",
+      "date": "2026-10-30",
+      "close": 313.71,
+      "support": 283.0,
+      "distance_pct": 10.85,
+      "trendline": 382.65,
+      "volume_ratio": 0.88,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "TRMB",
+      "date": "2026-10-30",
+      "close": 64.94,
+      "support": 58.58,
+      "distance_pct": 10.86,
+      "trendline": 61.15,
+      "volume_ratio": 1.1,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "COO",
+      "date": "2026-10-30",
+      "close": 59.55,
+      "support": 53.71,
+      "distance_pct": 10.87,
+      "trendline": 55.87,
+      "volume_ratio": 2.5,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "MCHP",
+      "date": "2026-10-30",
+      "close": 77.34,
+      "support": 69.76,
+      "distance_pct": 10.87,
+      "trendline": 70.29,
+      "volume_ratio": 2.0,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "FIX",
+      "date": "2026-10-30",
+      "close": 1232.66,
+      "support": 1111.11,
+      "distance_pct": 10.94,
+      "trendline": 1650.57,
+      "volume_ratio": 1.43,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "APH",
+      "date": "2026-10-30",
+      "close": 79.3,
+      "support": 71.44,
+      "distance_pct": 11.0,
+      "trendline": 89.02,
+      "volume_ratio": 1.38,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "AVY",
+      "date": "2026-10-30",
+      "close": 182.22,
+      "support": 164.1,
+      "distance_pct": 11.04,
+      "trendline": 170.84,
+      "volume_ratio": 1.46,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "Q",
+      "date": "2026-10-30",
+      "close": 116.67,
+      "support": 105.0,
+      "distance_pct": 11.11,
+      "trendline": 256.57,
+      "volume_ratio": 1.65,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "TXN",
+      "date": "2026-10-30",
+      "close": 300.84,
+      "support": 270.69,
+      "distance_pct": 11.14,
+      "trendline": 276.63,
+      "volume_ratio": 1.92,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "LIN",
+      "date": "2026-10-30",
+      "close": 514.24,
+      "support": 462.37,
+      "distance_pct": 11.22,
+      "trendline": 481.46,
+      "volume_ratio": 1.52,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "PEP",
+      "date": "2026-10-30",
+      "close": 137.34,
+      "support": 123.47,
+      "distance_pct": 11.23,
+      "trendline": 147.16,
+      "volume_ratio": 1.98,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "BMY",
+      "date": "2026-10-30",
+      "close": 62.48,
+      "support": 56.15,
+      "distance_pct": 11.27,
+      "trendline": 78.77,
+      "volume_ratio": 1.02,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ATO",
+      "date": "2026-10-30",
+      "close": 172.41,
+      "support": 154.72,
+      "distance_pct": 11.43,
+      "trendline": 167.2,
+      "volume_ratio": 1.39,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "JNJ",
+      "date": "2026-10-30",
+      "close": 273.2,
+      "support": 245.17,
+      "distance_pct": 11.43,
+      "trendline": 302.53,
+      "volume_ratio": 1.16,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "EVRG",
+      "date": "2026-10-30",
+      "close": 85.93,
+      "support": 77.11,
+      "distance_pct": 11.44,
+      "trendline": 102.89,
+      "volume_ratio": 1.2,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "MSI",
+      "date": "2026-10-30",
+      "close": 491.53,
+      "support": 441.05,
+      "distance_pct": 11.45,
+      "trendline": 520.88,
+      "volume_ratio": 1.43,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "WY",
+      "date": "2026-10-30",
+      "close": 20.35,
+      "support": 18.26,
+      "distance_pct": 11.45,
+      "trendline": 24.93,
+      "volume_ratio": 1.43,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "WRB",
+      "date": "2026-10-30",
+      "close": 73.86,
+      "support": 66.26,
+      "distance_pct": 11.47,
+      "trendline": 71.42,
+      "volume_ratio": 1.07,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "BG",
+      "date": "2026-10-30",
+      "close": 96.64,
+      "support": 86.67,
+      "distance_pct": 11.51,
+      "trendline": 118.07,
+      "volume_ratio": 1.35,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "AEP",
+      "date": "2026-10-30",
+      "close": 130.21,
+      "support": 116.71,
+      "distance_pct": 11.57,
+      "trendline": 129.93,
+      "volume_ratio": 1.33,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "RTX",
+      "date": "2026-10-30",
+      "close": 199.8,
+      "support": 179.02,
+      "distance_pct": 11.61,
+      "trendline": 262.33,
+      "volume_ratio": 1.17,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "EW",
+      "date": "2026-10-30",
+      "close": 92.01,
+      "support": 82.43,
+      "distance_pct": 11.62,
+      "trendline": 108.47,
+      "volume_ratio": 1.74,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "INCY",
+      "date": "2026-10-30",
+      "close": 120.39,
+      "support": 107.78,
+      "distance_pct": 11.7,
+      "trendline": 136.38,
+      "volume_ratio": 1.52,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ELV",
+      "date": "2026-10-30",
+      "close": 420.07,
+      "support": 375.74,
+      "distance_pct": 11.8,
+      "trendline": 393.39,
+      "volume_ratio": 0.95,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "KHC",
+      "date": "2026-10-30",
+      "close": 24.34,
+      "support": 21.76,
+      "distance_pct": 11.86,
+      "trendline": 24.55,
+      "volume_ratio": 1.01,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CCL",
+      "date": "2026-10-30",
+      "close": 28.83,
+      "support": 25.76,
+      "distance_pct": 11.92,
+      "trendline": 28.04,
+      "volume_ratio": 1.06,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "DHI",
+      "date": "2026-10-30",
+      "close": 146.0,
+      "support": 130.4,
+      "distance_pct": 11.96,
+      "trendline": 172.18,
+      "volume_ratio": 0.92,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "SNPS",
+      "date": "2026-10-30",
+      "close": 467.61,
+      "support": 417.6,
+      "distance_pct": 11.98,
+      "trendline": 427.43,
+      "volume_ratio": 1.11,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "TRV",
+      "date": "2026-10-30",
+      "close": 396.22,
+      "support": 353.79,
+      "distance_pct": 11.99,
+      "trendline": 361.45,
+      "volume_ratio": 1.0,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "RCL",
+      "date": "2026-10-30",
+      "close": 307.18,
+      "support": 274.2,
+      "distance_pct": 12.03,
+      "trendline": 275.62,
+      "volume_ratio": 0.88,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CB",
+      "date": "2026-10-30",
+      "close": 364.12,
+      "support": 325.0,
+      "distance_pct": 12.04,
+      "trendline": 377.31,
+      "volume_ratio": 1.02,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "GIS",
+      "date": "2026-10-30",
+      "close": 34.29,
+      "support": 30.6,
+      "distance_pct": 12.06,
+      "trendline": 35.23,
+      "volume_ratio": 0.85,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "KKR",
+      "date": "2026-10-30",
+      "close": 94.39,
+      "support": 84.23,
+      "distance_pct": 12.06,
+      "trendline": 135.94,
+      "volume_ratio": 0.58,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "D",
+      "date": "2026-10-30",
+      "close": 66.62,
+      "support": 59.44,
+      "distance_pct": 12.08,
+      "trendline": 82.24,
+      "volume_ratio": 1.2,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "COR",
+      "date": "2026-10-30",
+      "close": 330.84,
+      "support": 295.01,
+      "distance_pct": 12.15,
+      "trendline": 311.21,
+      "volume_ratio": 1.19,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "NSC",
+      "date": "2026-10-30",
+      "close": 342.64,
+      "support": 305.43,
+      "distance_pct": 12.18,
+      "trendline": 397.43,
+      "volume_ratio": 0.8,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "APP",
+      "date": "2026-10-30",
+      "close": 228.5,
+      "support": 260.59,
+      "distance_pct": -12.31,
+      "trendline": 307.86,
+      "volume_ratio": 2.37,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "BX",
+      "date": "2026-10-30",
+      "close": 118.51,
+      "support": 105.5,
+      "distance_pct": 12.33,
+      "trendline": 105.56,
+      "volume_ratio": 0.89,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "FERG",
+      "date": "2026-10-30",
+      "close": 238.68,
+      "support": 212.49,
+      "distance_pct": 12.33,
+      "trendline": 212.93,
+      "volume_ratio": 1.06,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "AIZ",
+      "date": "2026-10-30",
+      "close": 292.8,
+      "support": 260.64,
+      "distance_pct": 12.34,
+      "trendline": 291.88,
+      "volume_ratio": 0.94,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "BF-B",
+      "date": "2026-10-30",
+      "close": 28.71,
+      "support": 25.55,
+      "distance_pct": 12.37,
+      "trendline": 27.08,
+      "volume_ratio": 1.29,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "NEE",
+      "date": "2026-10-30",
+      "close": 83.71,
+      "support": 74.41,
+      "distance_pct": 12.5,
+      "trendline": 93.01,
+      "volume_ratio": 2.05,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "KVUE",
+      "date": "2026-10-30",
+      "close": 19.31,
+      "support": 17.16,
+      "distance_pct": 12.52,
+      "trendline": 17.96,
+      "volume_ratio": 3.64,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CMS",
+      "date": "2026-10-30",
+      "close": 70.1,
+      "support": 62.29,
+      "distance_pct": 12.54,
+      "trendline": 77.95,
+      "volume_ratio": 1.12,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "PFE",
+      "date": "2026-10-30",
+      "close": 30.52,
+      "support": 27.12,
+      "distance_pct": 12.54,
+      "trendline": 32.4,
+      "volume_ratio": 1.55,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "WSM",
+      "date": "2026-10-30",
+      "close": 252.72,
+      "support": 224.54,
+      "distance_pct": 12.55,
+      "trendline": 240.8,
+      "volume_ratio": 0.65,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "AEE",
+      "date": "2026-10-30",
+      "close": 110.54,
+      "support": 98.18,
+      "distance_pct": 12.59,
+      "trendline": 118.13,
+      "volume_ratio": 0.87,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "BDX",
+      "date": "2026-10-30",
+      "close": 197.88,
+      "support": 175.71,
+      "distance_pct": 12.62,
+      "trendline": 176.39,
+      "volume_ratio": 1.9,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "MCD",
+      "date": "2026-10-30",
+      "close": 258.12,
+      "support": 229.2,
+      "distance_pct": 12.62,
+      "trendline": 268.12,
+      "volume_ratio": 1.2,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "AFL",
+      "date": "2026-10-30",
+      "close": 123.89,
+      "support": 110.0,
+      "distance_pct": 12.63,
+      "trendline": 146.99,
+      "volume_ratio": 1.36,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "HCA",
+      "date": "2026-10-30",
+      "close": 473.19,
+      "support": 420.0,
+      "distance_pct": 12.66,
+      "trendline": 471.52,
+      "volume_ratio": 0.88,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "DGX",
+      "date": "2026-10-30",
+      "close": 251.82,
+      "support": 223.5,
+      "distance_pct": 12.67,
+      "trendline": 323.27,
+      "volume_ratio": 0.88,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "AIG",
+      "date": "2026-10-30",
+      "close": 81.9,
+      "support": 72.63,
+      "distance_pct": 12.76,
+      "trendline": 93.94,
+      "volume_ratio": 0.74,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "KIM",
+      "date": "2026-10-30",
+      "close": 24.52,
+      "support": 21.74,
+      "distance_pct": 12.79,
+      "trendline": 26.64,
+      "volume_ratio": 2.03,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CLX",
+      "date": "2026-10-30",
+      "close": 88.0,
+      "support": 77.99,
+      "distance_pct": 12.84,
+      "trendline": 94.82,
+      "volume_ratio": 1.61,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "SJM",
+      "date": "2026-10-30",
+      "close": 129.9,
+      "support": 115.11,
+      "distance_pct": 12.85,
+      "trendline": 124.34,
+      "volume_ratio": 1.62,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "SRE",
+      "date": "2026-10-30",
+      "close": 86.06,
+      "support": 76.21,
+      "distance_pct": 12.92,
+      "trendline": 89.43,
+      "volume_ratio": 0.95,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "EXPE",
+      "date": "2026-10-30",
+      "close": 285.93,
+      "support": 253.16,
+      "distance_pct": 12.94,
+      "trendline": 273.39,
+      "volume_ratio": 1.27,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "PPL",
+      "date": "2026-10-30",
+      "close": 35.65,
+      "support": 31.56,
+      "distance_pct": 12.96,
+      "trendline": 37.8,
+      "volume_ratio": 0.88,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "HAL",
+      "date": "2026-10-30",
+      "close": 36.17,
+      "support": 32.01,
+      "distance_pct": 13.0,
+      "trendline": 32.76,
+      "volume_ratio": 0.79,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CRWD",
+      "date": "2026-10-30",
+      "close": 250.43,
+      "support": 221.36,
+      "distance_pct": 13.13,
+      "trendline": 229.81,
+      "volume_ratio": 1.44,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "J",
+      "date": "2026-10-30",
+      "close": 154.62,
+      "support": 136.68,
+      "distance_pct": 13.13,
+      "trendline": 138.97,
+      "volume_ratio": 0.71,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "DTE",
+      "date": "2026-10-30",
+      "close": 135.49,
+      "support": 119.68,
+      "distance_pct": 13.21,
+      "trendline": 153.46,
+      "volume_ratio": 0.79,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ECL",
+      "date": "2026-10-30",
+      "close": 302.98,
+      "support": 267.46,
+      "distance_pct": 13.28,
+      "trendline": 267.92,
+      "volume_ratio": 1.23,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "MDT",
+      "date": "2026-10-30",
+      "close": 96.54,
+      "support": 85.22,
+      "distance_pct": 13.28,
+      "trendline": 90.76,
+      "volume_ratio": 0.28,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "MDLZ",
+      "date": "2026-10-30",
+      "close": 64.94,
+      "support": 57.32,
+      "distance_pct": 13.29,
+      "trendline": 70.35,
+      "volume_ratio": 2.05,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "DG",
+      "date": "2026-10-30",
+      "close": 132.3,
+      "support": 116.73,
+      "distance_pct": 13.34,
+      "trendline": 131.67,
+      "volume_ratio": 0.83,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "DUK",
+      "date": "2026-10-30",
+      "close": 127.39,
+      "support": 112.4,
+      "distance_pct": 13.34,
+      "trendline": 128.65,
+      "volume_ratio": 1.32,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "HRL",
+      "date": "2026-10-30",
+      "close": 21.28,
+      "support": 18.77,
+      "distance_pct": 13.37,
+      "trendline": 29.89,
+      "volume_ratio": 2.1,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CMCSA",
+      "date": "2026-10-30",
+      "close": 23.22,
+      "support": 20.48,
+      "distance_pct": 13.38,
+      "trendline": 28.8,
+      "volume_ratio": 1.56,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CSX",
+      "date": "2026-10-30",
+      "close": 51.99,
+      "support": 45.85,
+      "distance_pct": 13.39,
+      "trendline": 46.01,
+      "volume_ratio": 1.71,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "PG",
+      "date": "2026-10-30",
+      "close": 161.57,
+      "support": 142.46,
+      "distance_pct": 13.42,
+      "trendline": 144.6,
+      "volume_ratio": 1.17,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "COIN",
+      "date": "2026-10-30",
+      "close": 143.54,
+      "support": 165.8,
+      "distance_pct": -13.43,
+      "trendline": 168.22,
+      "volume_ratio": 2.67,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CI",
+      "date": "2026-10-30",
+      "close": 298.23,
+      "support": 262.85,
+      "distance_pct": 13.46,
+      "trendline": 283.54,
+      "volume_ratio": 1.29,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "AXON",
+      "date": "2026-10-30",
+      "close": 427.77,
+      "support": 377.0,
+      "distance_pct": 13.47,
+      "trendline": 740.64,
+      "volume_ratio": 0.96,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "PM",
+      "date": "2026-10-30",
+      "close": 208.79,
+      "support": 184.0,
+      "distance_pct": 13.47,
+      "trendline": 199.69,
+      "volume_ratio": 1.0,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "TSCO",
+      "date": "2026-10-30",
+      "close": 33.94,
+      "support": 29.9,
+      "distance_pct": 13.51,
+      "trendline": 31.19,
+      "volume_ratio": 0.69,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ETR",
+      "date": "2026-10-30",
+      "close": 110.11,
+      "support": 96.92,
+      "distance_pct": 13.61,
+      "trendline": 140.38,
+      "volume_ratio": 1.38,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "MTD",
+      "date": "2026-10-30",
+      "close": 1674.81,
+      "support": 1473.81,
+      "distance_pct": 13.64,
+      "trendline": 1763.97,
+      "volume_ratio": 0.96,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CSGP",
+      "date": "2026-10-30",
+      "close": 30.17,
+      "support": 26.52,
+      "distance_pct": 13.76,
+      "trendline": 32.27,
+      "volume_ratio": 1.54,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "EG",
+      "date": "2026-10-30",
+      "close": 410.97,
+      "support": 361.25,
+      "distance_pct": 13.76,
+      "trendline": 367.91,
+      "volume_ratio": 1.75,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CINF",
+      "date": "2026-10-30",
+      "close": 181.19,
+      "support": 159.2,
+      "distance_pct": 13.81,
+      "trendline": 168.77,
+      "volume_ratio": 1.8,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "PSX",
+      "date": "2026-10-30",
+      "close": 282.83,
+      "support": 248.51,
+      "distance_pct": 13.81,
+      "trendline": 263.47,
+      "volume_ratio": 1.56,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "JKHY",
+      "date": "2026-10-30",
+      "close": 161.34,
+      "support": 141.74,
+      "distance_pct": 13.83,
+      "trendline": 163.59,
+      "volume_ratio": 1.15,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "SLB",
+      "date": "2026-10-30",
+      "close": 53.74,
+      "support": 47.17,
+      "distance_pct": 13.93,
+      "trendline": 61.62,
+      "volume_ratio": 1.07,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "PHM",
+      "date": "2026-10-30",
+      "close": 124.74,
+      "support": 109.46,
+      "distance_pct": 13.96,
+      "trendline": 111.76,
+      "volume_ratio": 0.89,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "FISV",
+      "date": "2026-10-30",
+      "close": 50.02,
+      "support": 43.87,
+      "distance_pct": 14.02,
+      "trendline": 57.54,
+      "volume_ratio": 2.1,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "IFF",
+      "date": "2026-10-30",
+      "close": 93.02,
+      "support": 81.54,
+      "distance_pct": 14.08,
+      "trendline": 86.09,
+      "volume_ratio": 1.31,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "EIX",
+      "date": "2026-10-30",
+      "close": 58.79,
+      "support": 51.53,
+      "distance_pct": 14.09,
+      "trendline": 53.16,
+      "volume_ratio": 0.96,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CL",
+      "date": "2026-10-30",
+      "close": 95.29,
+      "support": 83.51,
+      "distance_pct": 14.1,
+      "trendline": 90.72,
+      "volume_ratio": 1.86,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "TRGP",
+      "date": "2026-10-30",
+      "close": 314.99,
+      "support": 276.02,
+      "distance_pct": 14.12,
+      "trendline": 287.12,
+      "volume_ratio": 1.36,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "TSN",
+      "date": "2026-10-30",
+      "close": 57.04,
+      "support": 49.96,
+      "distance_pct": 14.17,
+      "trendline": 64.01,
+      "volume_ratio": 1.12,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "LITE",
+      "date": "2026-10-30",
+      "close": 840.7,
+      "support": 736.01,
+      "distance_pct": 14.22,
+      "trendline": 1012.22,
+      "volume_ratio": 1.52,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "PKG",
+      "date": "2026-10-30",
+      "close": 256.82,
+      "support": 224.8,
+      "distance_pct": 14.24,
+      "trendline": 226.09,
+      "volume_ratio": 0.83,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "AWK",
+      "date": "2026-10-30",
+      "close": 144.37,
+      "support": 126.34,
+      "distance_pct": 14.27,
+      "trendline": 132.36,
+      "volume_ratio": 1.08,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "TJX",
+      "date": "2026-10-30",
+      "close": 140.31,
+      "support": 122.78,
+      "distance_pct": 14.28,
+      "trendline": 182.89,
+      "volume_ratio": 0.74,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "BBY",
+      "date": "2026-10-30",
+      "close": 95.65,
+      "support": 83.65,
+      "distance_pct": 14.35,
+      "trendline": 88.35,
+      "volume_ratio": 1.45,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ED",
+      "date": "2026-10-30",
+      "close": 116.64,
+      "support": 102.0,
+      "distance_pct": 14.35,
+      "trendline": 108.02,
+      "volume_ratio": 1.46,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "HST",
+      "date": "2026-10-30",
+      "close": 25.3,
+      "support": 22.12,
+      "distance_pct": 14.38,
+      "trendline": 22.9,
+      "volume_ratio": 1.15,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "TSLA",
+      "date": "2026-10-30",
+      "close": 399.81,
+      "support": 349.33,
+      "distance_pct": 14.45,
+      "trendline": 352.2,
+      "volume_ratio": 1.13,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ICE",
+      "date": "2026-10-30",
+      "close": 168.85,
+      "support": 147.5,
+      "distance_pct": 14.47,
+      "trendline": 155.05,
+      "volume_ratio": 1.63,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "STLD",
+      "date": "2026-10-30",
+      "close": 250.8,
+      "support": 219.1,
+      "distance_pct": 14.47,
+      "trendline": 220.26,
+      "volume_ratio": 0.83,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "WTW",
+      "date": "2026-10-30",
+      "close": 324.42,
+      "support": 283.42,
+      "distance_pct": 14.47,
+      "trendline": 422.99,
+      "volume_ratio": 1.35,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CTAS",
+      "date": "2026-10-30",
+      "close": 219.82,
+      "support": 191.85,
+      "distance_pct": 14.58,
+      "trendline": 194.38,
+      "volume_ratio": 1.17,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "SO",
+      "date": "2026-10-30",
+      "close": 93.71,
+      "support": 81.69,
+      "distance_pct": 14.71,
+      "trendline": 95.37,
+      "volume_ratio": 1.05,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "WST",
+      "date": "2026-10-30",
+      "close": 412.62,
+      "support": 359.49,
+      "distance_pct": 14.78,
+      "trendline": 381.49,
+      "volume_ratio": 1.76,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ADP",
+      "date": "2026-10-30",
+      "close": 293.84,
+      "support": 255.96,
+      "distance_pct": 14.8,
+      "trendline": 342.88,
+      "volume_ratio": 1.81,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "COST",
+      "date": "2026-10-30",
+      "close": 1012.28,
+      "support": 881.8,
+      "distance_pct": 14.8,
+      "trendline": 1012.53,
+      "volume_ratio": 1.67,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "YUM",
+      "date": "2026-10-30",
+      "close": 155.4,
+      "support": 135.35,
+      "distance_pct": 14.81,
+      "trendline": 137.23,
+      "volume_ratio": 0.92,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "NOW",
+      "date": "2026-10-30",
+      "close": 105.12,
+      "support": 91.53,
+      "distance_pct": 14.85,
+      "trendline": 155.28,
+      "volume_ratio": 2.22,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "BR",
+      "date": "2026-10-30",
+      "close": 178.82,
+      "support": 155.68,
+      "distance_pct": 14.86,
+      "trendline": 189.97,
+      "volume_ratio": 0.82,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CHD",
+      "date": "2026-10-30",
+      "close": 107.23,
+      "support": 93.33,
+      "distance_pct": 14.89,
+      "trendline": 93.77,
+      "volume_ratio": 1.85,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "KMB",
+      "date": "2026-10-30",
+      "close": 107.94,
+      "support": 93.95,
+      "distance_pct": 14.89,
+      "trendline": 111.37,
+      "volume_ratio": 2.16,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "PGR",
+      "date": "2026-10-30",
+      "close": 231.28,
+      "support": 201.02,
+      "distance_pct": 15.05,
+      "trendline": 201.15,
+      "volume_ratio": 0.74,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "KMI",
+      "date": "2026-10-30",
+      "close": 33.87,
+      "support": 29.43,
+      "distance_pct": 15.09,
+      "trendline": 37.74,
+      "volume_ratio": 1.02,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CNC",
+      "date": "2026-10-30",
+      "close": 68.45,
+      "support": 59.46,
+      "distance_pct": 15.12,
+      "trendline": 83.47,
+      "volume_ratio": 1.02,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "DRI",
+      "date": "2026-10-30",
+      "close": 220.17,
+      "support": 191.11,
+      "distance_pct": 15.2,
+      "trendline": 244.65,
+      "volume_ratio": 0.77,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ACGL",
+      "date": "2026-10-30",
+      "close": 106.36,
+      "support": 92.28,
+      "distance_pct": 15.26,
+      "trendline": 127.42,
+      "volume_ratio": 1.08,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "SNDK",
+      "date": "2026-10-30",
+      "close": 1150.89,
+      "support": 998.19,
+      "distance_pct": 15.3,
+      "trendline": 2123.48,
+      "volume_ratio": 2.12,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "MNST",
+      "date": "2026-10-30",
+      "close": 47.34,
+      "support": 41.05,
+      "distance_pct": 15.32,
+      "trendline": 58.97,
+      "volume_ratio": 1.53,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "OKE",
+      "date": "2026-10-30",
+      "close": 97.07,
+      "support": 84.15,
+      "distance_pct": 15.35,
+      "trendline": 110.52,
+      "volume_ratio": 1.36,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "LNT",
+      "date": "2026-10-30",
+      "close": 71.65,
+      "support": 62.07,
+      "distance_pct": 15.44,
+      "trendline": 77.11,
+      "volume_ratio": 2.07,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "VRTX",
+      "date": "2026-10-30",
+      "close": 558.88,
+      "support": 484.08,
+      "distance_pct": 15.45,
+      "trendline": 532.21,
+      "volume_ratio": 2.35,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CRH",
+      "date": "2026-10-30",
+      "close": 90.81,
+      "support": 78.62,
+      "distance_pct": 15.5,
+      "trendline": 110.78,
+      "volume_ratio": 1.16,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "PAYX",
+      "date": "2026-10-30",
+      "close": 112.12,
+      "support": 97.01,
+      "distance_pct": 15.57,
+      "trendline": 148.85,
+      "volume_ratio": 1.27,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "KR",
+      "date": "2026-10-30",
+      "close": 66.76,
+      "support": 57.75,
+      "distance_pct": 15.6,
+      "trendline": 58.13,
+      "volume_ratio": 0.83,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CAH",
+      "date": "2026-10-30",
+      "close": 250.48,
+      "support": 216.2,
+      "distance_pct": 15.86,
+      "trendline": 242.37,
+      "volume_ratio": 1.18,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "EXR",
+      "date": "2026-10-30",
+      "close": 151.32,
+      "support": 130.54,
+      "distance_pct": 15.92,
+      "trendline": 147.83,
+      "volume_ratio": 1.31,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "V",
+      "date": "2026-10-30",
+      "close": 413.59,
+      "support": 356.75,
+      "distance_pct": 15.93,
+      "trendline": 382.33,
+      "volume_ratio": 1.15,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "PSA",
+      "date": "2026-10-30",
+      "close": 324.77,
+      "support": 280.02,
+      "distance_pct": 15.98,
+      "trendline": 418.26,
+      "volume_ratio": 1.1,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "AZO",
+      "date": "2026-10-30",
+      "close": 3169.82,
+      "support": 2730.65,
+      "distance_pct": 16.08,
+      "trendline": 3279.94,
+      "volume_ratio": 1.16,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "XEL",
+      "date": "2026-10-30",
+      "close": 79.82,
+      "support": 68.72,
+      "distance_pct": 16.15,
+      "trendline": 89.05,
+      "volume_ratio": 1.4,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "AMCR",
+      "date": "2026-10-30",
+      "close": 47.39,
+      "support": 40.79,
+      "distance_pct": 16.18,
+      "trendline": 53.0,
+      "volume_ratio": 1.5,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ARES",
+      "date": "2026-10-30",
+      "close": 128.15,
+      "support": 110.3,
+      "distance_pct": 16.18,
+      "trendline": 175.51,
+      "volume_ratio": 1.45,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "EXC",
+      "date": "2026-10-30",
+      "close": 46.16,
+      "support": 39.73,
+      "distance_pct": 16.18,
+      "trendline": 54.62,
+      "volume_ratio": 2.66,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "MLM",
+      "date": "2026-10-30",
+      "close": 540.41,
+      "support": 464.92,
+      "distance_pct": 16.24,
+      "trendline": 668.41,
+      "volume_ratio": 1.16,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CCI",
+      "date": "2026-10-30",
+      "close": 88.69,
+      "support": 76.29,
+      "distance_pct": 16.25,
+      "trendline": 81.35,
+      "volume_ratio": 0.67,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "GD",
+      "date": "2026-10-30",
+      "close": 372.59,
+      "support": 320.45,
+      "distance_pct": 16.27,
+      "trendline": 490.52,
+      "volume_ratio": 2.01,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "EBAY",
+      "date": "2026-10-30",
+      "close": 121.64,
+      "support": 104.61,
+      "distance_pct": 16.28,
+      "trendline": 111.16,
+      "volume_ratio": 1.43,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "WEC",
+      "date": "2026-10-30",
+      "close": 116.07,
+      "support": 99.8,
+      "distance_pct": 16.3,
+      "trendline": 105.61,
+      "volume_ratio": 1.37,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "AOS",
+      "date": "2026-10-30",
+      "close": 63.07,
+      "support": 54.22,
+      "distance_pct": 16.31,
+      "trendline": 67.36,
+      "volume_ratio": 1.53,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "PPG",
+      "date": "2026-10-30",
+      "close": 119.52,
+      "support": 102.75,
+      "distance_pct": 16.32,
+      "trendline": 104.85,
+      "volume_ratio": 1.05,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "URI",
+      "date": "2026-10-30",
+      "close": 1170.05,
+      "support": 1005.64,
+      "distance_pct": 16.35,
+      "trendline": 1022.89,
+      "volume_ratio": 0.9,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "WM",
+      "date": "2026-10-30",
+      "close": 233.45,
+      "support": 200.58,
+      "distance_pct": 16.39,
+      "trendline": 240.98,
+      "volume_ratio": 1.02,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CVX",
+      "date": "2026-10-30",
+      "close": 235.52,
+      "support": 201.96,
+      "distance_pct": 16.62,
+      "trendline": 204.45,
+      "volume_ratio": 1.52,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "FANG",
+      "date": "2026-10-30",
+      "close": 212.08,
+      "support": 181.85,
+      "distance_pct": 16.62,
+      "trendline": 242.16,
+      "volume_ratio": 0.98,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CNP",
+      "date": "2026-10-30",
+      "close": 42.44,
+      "support": 36.37,
+      "distance_pct": 16.69,
+      "trendline": 45.42,
+      "volume_ratio": 0.91,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ZTS",
+      "date": "2026-10-30",
+      "close": 79.72,
+      "support": 68.31,
+      "distance_pct": 16.71,
+      "trendline": 79.79,
+      "volume_ratio": 1.08,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CMG",
+      "date": "2026-10-30",
+      "close": 31.89,
+      "support": 27.31,
+      "distance_pct": 16.77,
+      "trendline": 32.39,
+      "volume_ratio": 0.99,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "NI",
+      "date": "2026-10-30",
+      "close": 44.57,
+      "support": 38.16,
+      "distance_pct": 16.79,
+      "trendline": 52.48,
+      "volume_ratio": 1.32,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "MSCI",
+      "date": "2026-10-30",
+      "close": 623.38,
+      "support": 533.45,
+      "distance_pct": 16.86,
+      "trendline": 562.97,
+      "volume_ratio": 0.9,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "OXY",
+      "date": "2026-10-30",
+      "close": 64.0,
+      "support": 54.76,
+      "distance_pct": 16.87,
+      "trendline": 69.12,
+      "volume_ratio": 1.09,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "IP",
+      "date": "2026-10-30",
+      "close": 36.37,
+      "support": 31.11,
+      "distance_pct": 16.91,
+      "trendline": 42.93,
+      "volume_ratio": 1.22,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "PODD",
+      "date": "2026-10-30",
+      "close": 149.68,
+      "support": 128.01,
+      "distance_pct": 16.93,
+      "trendline": 156.17,
+      "volume_ratio": 0.73,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CME",
+      "date": "2026-10-30",
+      "close": 303.14,
+      "support": 258.87,
+      "distance_pct": 17.1,
+      "trendline": 261.48,
+      "volume_ratio": 0.93,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "AMT",
+      "date": "2026-10-30",
+      "close": 187.78,
+      "support": 160.3,
+      "distance_pct": 17.14,
+      "trendline": 188.61,
+      "volume_ratio": 0.85,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CPRT",
+      "date": "2026-10-30",
+      "close": 30.13,
+      "support": 25.72,
+      "distance_pct": 17.15,
+      "trendline": 38.99,
+      "volume_ratio": 1.15,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "MA",
+      "date": "2026-10-30",
+      "close": 638.01,
+      "support": 544.58,
+      "distance_pct": 17.16,
+      "trendline": 575.1,
+      "volume_ratio": 1.46,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "GM",
+      "date": "2026-10-30",
+      "close": 87.4,
+      "support": 74.59,
+      "distance_pct": 17.17,
+      "trendline": 155.33,
+      "volume_ratio": 1.43,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ECHO",
+      "date": "2026-10-30",
+      "close": 96.94,
+      "support": 82.73,
+      "distance_pct": 17.18,
+      "trendline": 90.36,
+      "volume_ratio": 1.06,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "MCK",
+      "date": "2026-10-30",
+      "close": 994.58,
+      "support": 847.29,
+      "distance_pct": 17.38,
+      "trendline": 856.4,
+      "volume_ratio": 1.1,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "MPC",
+      "date": "2026-10-30",
+      "close": 444.73,
+      "support": 378.8,
+      "distance_pct": 17.4,
+      "trendline": 423.04,
+      "volume_ratio": 1.03,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "BIIB",
+      "date": "2026-10-30",
+      "close": 253.62,
+      "support": 215.73,
+      "distance_pct": 17.56,
+      "trendline": 221.17,
+      "volume_ratio": 0.99,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "AMGN",
+      "date": "2026-10-30",
+      "close": 466.01,
+      "support": 396.01,
+      "distance_pct": 17.68,
+      "trendline": 423.72,
+      "volume_ratio": 1.25,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "FLEX",
+      "date": "2026-10-30",
+      "close": 86.48,
+      "support": 73.48,
+      "distance_pct": 17.69,
+      "trendline": 112.28,
+      "volume_ratio": 0.74,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "PNW",
+      "date": "2026-10-30",
+      "close": 106.28,
+      "support": 90.27,
+      "distance_pct": 17.74,
+      "trendline": 139.42,
+      "volume_ratio": 0.88,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "PWR",
+      "date": "2026-10-30",
+      "close": 620.73,
+      "support": 527.07,
+      "distance_pct": 17.77,
+      "trendline": 646.09,
+      "volume_ratio": 1.18,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "VMC",
+      "date": "2026-10-30",
+      "close": 281.25,
+      "support": 238.72,
+      "distance_pct": 17.82,
+      "trendline": 240.97,
+      "volume_ratio": 1.21,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "LOW",
+      "date": "2026-10-30",
+      "close": 209.07,
+      "support": 177.33,
+      "distance_pct": 17.9,
+      "trendline": 269.93,
+      "volume_ratio": 1.37,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "HLT",
+      "date": "2026-10-30",
+      "close": 356.92,
+      "support": 302.11,
+      "distance_pct": 18.14,
+      "trendline": 311.15,
+      "volume_ratio": 0.88,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "BRO",
+      "date": "2026-10-30",
+      "close": 69.76,
+      "support": 59.01,
+      "distance_pct": 18.22,
+      "trendline": 80.6,
+      "volume_ratio": 1.39,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "UPS",
+      "date": "2026-10-30",
+      "close": 108.25,
+      "support": 91.56,
+      "distance_pct": 18.23,
+      "trendline": 101.43,
+      "volume_ratio": 1.1,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "IBM",
+      "date": "2026-10-30",
+      "close": 257.81,
+      "support": 217.8,
+      "distance_pct": 18.37,
+      "trendline": 239.21,
+      "volume_ratio": 1.03,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ALL",
+      "date": "2026-10-30",
+      "close": 259.87,
+      "support": 219.51,
+      "distance_pct": 18.39,
+      "trendline": 257.55,
+      "volume_ratio": 0.89,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "APD",
+      "date": "2026-10-30",
+      "close": 316.43,
+      "support": 267.28,
+      "distance_pct": 18.39,
+      "trendline": 336.69,
+      "volume_ratio": 1.39,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CASY",
+      "date": "2026-10-30",
+      "close": 680.19,
+      "support": 574.55,
+      "distance_pct": 18.39,
+      "trendline": 908.32,
+      "volume_ratio": 1.02,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "NDAQ",
+      "date": "2026-10-30",
+      "close": 106.23,
+      "support": 89.67,
+      "distance_pct": 18.47,
+      "trendline": 92.55,
+      "volume_ratio": 1.49,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "RSG",
+      "date": "2026-10-30",
+      "close": 244.04,
+      "support": 205.86,
+      "distance_pct": 18.55,
+      "trendline": 241.58,
+      "volume_ratio": 1.89,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "NOC",
+      "date": "2026-10-30",
+      "close": 557.54,
+      "support": 470.06,
+      "distance_pct": 18.61,
+      "trendline": 894.1,
+      "volume_ratio": 0.89,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "MO",
+      "date": "2026-10-30",
+      "close": 78.03,
+      "support": 65.78,
+      "distance_pct": 18.62,
+      "trendline": 74.26,
+      "volume_ratio": 2.63,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "LULU",
+      "date": "2026-10-30",
+      "close": 107.24,
+      "support": 90.38,
+      "distance_pct": 18.65,
+      "trendline": 128.42,
+      "volume_ratio": 0.98,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "SBUX",
+      "date": "2026-10-30",
+      "close": 103.67,
+      "support": 87.35,
+      "distance_pct": 18.68,
+      "trendline": 110.27,
+      "volume_ratio": 1.47,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "NXPI",
+      "date": "2026-10-30",
+      "close": 259.61,
+      "support": 218.64,
+      "distance_pct": 18.74,
+      "trendline": 219.83,
+      "volume_ratio": 2.25,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "SWKS",
+      "date": "2026-10-30",
+      "close": 87.58,
+      "support": 73.76,
+      "distance_pct": 18.74,
+      "trendline": 77.85,
+      "volume_ratio": 0.76,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "VLTO",
+      "date": "2026-10-30",
+      "close": 111.1,
+      "support": 93.54,
+      "distance_pct": 18.77,
+      "trendline": 98.21,
+      "volume_ratio": 2.56,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "HD",
+      "date": "2026-10-30",
+      "close": 329.2,
+      "support": 277.15,
+      "distance_pct": 18.78,
+      "trendline": 350.18,
+      "volume_ratio": 0.83,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CTSH",
+      "date": "2026-10-30",
+      "close": 65.11,
+      "support": 54.7,
+      "distance_pct": 19.03,
+      "trendline": 74.85,
+      "volume_ratio": 1.16,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "OTIS",
+      "date": "2026-10-30",
+      "close": 75.75,
+      "support": 63.58,
+      "distance_pct": 19.15,
+      "trendline": 74.55,
+      "volume_ratio": 1.43,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "FDXF",
+      "date": "2026-10-30",
+      "close": 126.04,
+      "support": 105.75,
+      "distance_pct": 19.19,
+      "trendline": 155.63,
+      "volume_ratio": 2.6,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "KDP",
+      "date": "2026-10-30",
+      "close": 35.84,
+      "support": 30.06,
+      "distance_pct": 19.23,
+      "trendline": 40.34,
+      "volume_ratio": 2.52,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "TXT",
+      "date": "2026-10-30",
+      "close": 85.7,
+      "support": 71.87,
+      "distance_pct": 19.24,
+      "trendline": 99.2,
+      "volume_ratio": 1.54,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "FTV",
+      "date": "2026-10-30",
+      "close": 65.23,
+      "support": 54.64,
+      "distance_pct": 19.38,
+      "trendline": 55.35,
+      "volume_ratio": 1.9,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "LH",
+      "date": "2026-10-30",
+      "close": 361.39,
+      "support": 302.71,
+      "distance_pct": 19.38,
+      "trendline": 344.0,
+      "volume_ratio": 1.06,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "WMT",
+      "date": "2026-10-30",
+      "close": 123.51,
+      "support": 103.39,
+      "distance_pct": 19.46,
+      "trendline": 111.78,
+      "volume_ratio": 1.52,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "LHX",
+      "date": "2026-10-30",
+      "close": 277.61,
+      "support": 232.34,
+      "distance_pct": 19.48,
+      "trendline": 318.69,
+      "volume_ratio": 1.47,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "NUE",
+      "date": "2026-10-30",
+      "close": 273.87,
+      "support": 229.2,
+      "distance_pct": 19.49,
+      "trendline": 283.47,
+      "volume_ratio": 1.15,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "GILD",
+      "date": "2026-10-30",
+      "close": 170.68,
+      "support": 142.6,
+      "distance_pct": 19.69,
+      "trendline": 144.09,
+      "volume_ratio": 1.92,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ULTA",
+      "date": "2026-10-30",
+      "close": 640.43,
+      "support": 534.05,
+      "distance_pct": 19.92,
+      "trendline": 549.17,
+      "volume_ratio": 1.22,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "FIS",
+      "date": "2026-10-30",
+      "close": 38.55,
+      "support": 32.1,
+      "distance_pct": 20.09,
+      "trendline": 43.01,
+      "volume_ratio": 2.51,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "XOM",
+      "date": "2026-10-30",
+      "close": 187.25,
+      "support": 155.85,
+      "distance_pct": 20.15,
+      "trendline": 156.78,
+      "volume_ratio": 1.9,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "SKYD",
+      "date": "2026-10-30",
+      "close": 7.95,
+      "support": 6.61,
+      "distance_pct": 20.27,
+      "trendline": 13.39,
+      "volume_ratio": 0.41,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CDW",
+      "date": "2026-10-30",
+      "close": 153.79,
+      "support": 127.77,
+      "distance_pct": 20.36,
+      "trendline": 177.28,
+      "volume_ratio": 1.69,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "DLTR",
+      "date": "2026-10-30",
+      "close": 133.87,
+      "support": 111.12,
+      "distance_pct": 20.47,
+      "trendline": 120.45,
+      "volume_ratio": 1.2,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "MRSH",
+      "date": "2026-10-30",
+      "close": 200.62,
+      "support": 166.48,
+      "distance_pct": 20.51,
+      "trendline": 167.07,
+      "volume_ratio": 1.14,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "BALL",
+      "date": "2026-10-30",
+      "close": 66.47,
+      "support": 55.11,
+      "distance_pct": 20.61,
+      "trendline": 61.38,
+      "volume_ratio": 1.9,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "SWK",
+      "date": "2026-10-30",
+      "close": 103.44,
+      "support": 85.71,
+      "distance_pct": 20.69,
+      "trendline": 122.66,
+      "volume_ratio": 1.38,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "AON",
+      "date": "2026-10-30",
+      "close": 321.67,
+      "support": 266.33,
+      "distance_pct": 20.78,
+      "trendline": 351.76,
+      "volume_ratio": 1.05,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "NCLH",
+      "date": "2026-10-30",
+      "close": 17.57,
+      "support": 14.54,
+      "distance_pct": 20.84,
+      "trendline": 15.39,
+      "volume_ratio": 1.3,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "NKE",
+      "date": "2026-10-30",
+      "close": 38.67,
+      "support": 31.97,
+      "distance_pct": 20.96,
+      "trendline": 42.92,
+      "volume_ratio": 0.76,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "GEHC",
+      "date": "2026-10-30",
+      "close": 76.57,
+      "support": 63.28,
+      "distance_pct": 21.0,
+      "trendline": 63.62,
+      "volume_ratio": 1.03,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "LEN",
+      "date": "2026-10-30",
+      "close": 86.94,
+      "support": 71.78,
+      "distance_pct": 21.12,
+      "trendline": 95.46,
+      "volume_ratio": 0.69,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "EOG",
+      "date": "2026-10-30",
+      "close": 165.54,
+      "support": 136.43,
+      "distance_pct": 21.34,
+      "trendline": 142.25,
+      "volume_ratio": 0.98,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CVNA",
+      "date": "2026-10-30",
+      "close": 68.29,
+      "support": 56.28,
+      "distance_pct": 21.35,
+      "trendline": 95.34,
+      "volume_ratio": 1.84,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "FICO",
+      "date": "2026-10-30",
+      "close": 711.23,
+      "support": 586.05,
+      "distance_pct": 21.36,
+      "trendline": 1557.89,
+      "volume_ratio": 0.65,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "VEEV",
+      "date": "2026-10-30",
+      "close": 312.96,
+      "support": 257.87,
+      "distance_pct": 21.36,
+      "trendline": 290.18,
+      "volume_ratio": 0.92,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ERIE",
+      "date": "2026-10-30",
+      "close": 261.39,
+      "support": 215.32,
+      "distance_pct": 21.4,
+      "trendline": 269.64,
+      "volume_ratio": 4.04,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "MRNA",
+      "date": "2026-10-30",
+      "close": 221.72,
+      "support": 182.5,
+      "distance_pct": 21.49,
+      "trendline": 229.13,
+      "volume_ratio": 0.46,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "VRSK",
+      "date": "2026-10-30",
+      "close": 196.3,
+      "support": 161.51,
+      "distance_pct": 21.54,
+      "trendline": 257.57,
+      "volume_ratio": 1.16,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "MAS",
+      "date": "2026-10-30",
+      "close": 80.64,
+      "support": 66.26,
+      "distance_pct": 21.7,
+      "trendline": 79.52,
+      "volume_ratio": 0.81,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "GPN",
+      "date": "2026-10-30",
+      "close": 96.84,
+      "support": 79.35,
+      "distance_pct": 22.04,
+      "trendline": 81.49,
+      "volume_ratio": 8.67,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "SPGI",
+      "date": "2026-10-30",
+      "close": 466.55,
+      "support": 382.21,
+      "distance_pct": 22.07,
+      "trendline": 470.14,
+      "volume_ratio": 1.0,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "LYB",
+      "date": "2026-10-30",
+      "close": 68.64,
+      "support": 55.88,
+      "distance_pct": 22.83,
+      "trendline": 73.59,
+      "volume_ratio": 1.39,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "EL",
+      "date": "2026-10-30",
+      "close": 109.23,
+      "support": 88.68,
+      "distance_pct": 23.17,
+      "trendline": 105.86,
+      "volume_ratio": 3.07,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "STZ",
+      "date": "2026-10-30",
+      "close": 135.33,
+      "support": 109.73,
+      "distance_pct": 23.33,
+      "trendline": 135.39,
+      "volume_ratio": 1.29,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "HII",
+      "date": "2026-10-30",
+      "close": 316.88,
+      "support": 255.36,
+      "distance_pct": 24.09,
+      "trendline": 327.98,
+      "volume_ratio": 1.31,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "VRT",
+      "date": "2026-10-30",
+      "close": 232.5,
+      "support": 187.24,
+      "distance_pct": 24.17,
+      "trendline": 256.65,
+      "volume_ratio": 1.1,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "MAR",
+      "date": "2026-10-30",
+      "close": 399.3,
+      "support": 320.91,
+      "distance_pct": 24.43,
+      "trendline": 367.46,
+      "volume_ratio": 1.47,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "COP",
+      "date": "2026-10-30",
+      "close": 154.03,
+      "support": 123.46,
+      "distance_pct": 24.76,
+      "trendline": 167.52,
+      "volume_ratio": 1.23,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "LLY",
+      "date": "2026-10-30",
+      "close": 1417.54,
+      "support": 1131.21,
+      "distance_pct": 25.31,
+      "trendline": 1146.3,
+      "volume_ratio": 2.21,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "AJG",
+      "date": "2026-10-30",
+      "close": 276.07,
+      "support": 219.65,
+      "distance_pct": 25.69,
+      "trendline": 344.74,
+      "volume_ratio": 2.16,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "TYL",
+      "date": "2026-10-30",
+      "close": 394.3,
+      "support": 312.04,
+      "distance_pct": 26.36,
+      "trendline": 380.39,
+      "volume_ratio": 1.85,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "LDOS",
+      "date": "2026-10-30",
+      "close": 142.98,
+      "support": 112.07,
+      "distance_pct": 27.58,
+      "trendline": 147.9,
+      "volume_ratio": 0.95,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "GDDY",
+      "date": "2026-10-30",
+      "close": 117.24,
+      "support": 91.84,
+      "distance_pct": 27.66,
+      "trendline": 92.23,
+      "volume_ratio": 2.26,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "LMT",
+      "date": "2026-10-30",
+      "close": 636.95,
+      "support": 497.0,
+      "distance_pct": 28.16,
+      "trendline": 500.67,
+      "volume_ratio": 1.25,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "REGN",
+      "date": "2026-10-30",
+      "close": 927.89,
+      "support": 722.02,
+      "distance_pct": 28.51,
+      "trendline": 1005.27,
+      "volume_ratio": 4.54,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "APA",
+      "date": "2026-10-30",
+      "close": 52.82,
+      "support": 41.02,
+      "distance_pct": 28.76,
+      "trendline": 41.79,
+      "volume_ratio": 0.88,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "IT",
+      "date": "2026-10-30",
+      "close": 228.79,
+      "support": 176.04,
+      "distance_pct": 29.96,
+      "trendline": 199.75,
+      "volume_ratio": 0.84,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "PNR",
+      "date": "2026-10-30",
+      "close": 66.26,
+      "support": 50.88,
+      "distance_pct": 30.23,
+      "trendline": 94.67,
+      "volume_ratio": 1.48,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "DOW",
+      "date": "2026-10-30",
+      "close": 34.7,
+      "support": 26.6,
+      "distance_pct": 30.43,
+      "trendline": 32.34,
+      "volume_ratio": 1.31,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "INTU",
+      "date": "2026-10-30",
+      "close": 341.09,
+      "support": 261.1,
+      "distance_pct": 30.63,
+      "trendline": 406.18,
+      "volume_ratio": 1.26,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "FDS",
+      "date": "2026-10-30",
+      "close": 329.57,
+      "support": 252.05,
+      "distance_pct": 30.76,
+      "trendline": 379.24,
+      "volume_ratio": 1.91,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ALLE",
+      "date": "2026-10-30",
+      "close": 186.44,
+      "support": 142.0,
+      "distance_pct": 31.3,
+      "trendline": 156.12,
+      "volume_ratio": 1.03,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CBOE",
+      "date": "2026-10-30",
+      "close": 335.53,
+      "support": 252.82,
+      "distance_pct": 32.71,
+      "trendline": 337.89,
+      "volume_ratio": 2.01,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "CRL",
+      "date": "2026-10-30",
+      "close": 359.41,
+      "support": 267.27,
+      "distance_pct": 34.47,
+      "trendline": 315.47,
+      "volume_ratio": 1.3,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ROP",
+      "date": "2026-10-30",
+      "close": 466.6,
+      "support": 346.58,
+      "distance_pct": 34.63,
+      "trendline": 566.25,
+      "volume_ratio": 2.22,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "EFX",
+      "date": "2026-10-30",
+      "close": 184.6,
+      "support": 137.01,
+      "distance_pct": 34.73,
+      "trendline": 234.66,
+      "volume_ratio": 0.75,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "HAS",
+      "date": "2026-10-30",
+      "close": 119.09,
+      "support": 85.37,
+      "distance_pct": 39.5,
+      "trendline": 106.9,
+      "volume_ratio": 0.74,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "GEN",
+      "date": "2026-10-30",
+      "close": 29.13,
+      "support": 20.34,
+      "distance_pct": 43.22,
+      "trendline": 36.78,
+      "volume_ratio": 1.13,
+      "signal": "NONE"
+    },
+    {
+      "ticker": "ACN",
+      "date": "2026-10-30",
+      "close": 258.24,
+      "support": 170.74,
+      "distance_pct": 51.25,
+      "trendline": 186.15,
+      "volume_ratio": 1.52,
+      "signal": "NONE"
+    }
+  ]
+}
