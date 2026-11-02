@@ -73,8 +73,8 @@ if choices:
     ticker = st.selectbox('Inspect stock', choices, index=choices.index('GOOG') if 'GOOG' in choices else 0)
     @st.cache_data(ttl=3600)
     def load(symbol): return fetch(symbol)
-        try:
-            history = load(ticker)
+    try:
+    history = load(ticker)
 
             fig = go.Figure(data=[
                 go.Candlestick(
@@ -118,5 +118,5 @@ if choices:
                 'not manually verified trading zones.'
             )
 
-        except Exception as exc:
+            except Exception as exc:
             st.warning(f'Chart temporarily unavailable: {exc}')
