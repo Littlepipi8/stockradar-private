@@ -43,13 +43,26 @@ if data['failed']:
 
 signals = st.multiselect(
     'Show signals',
-    ['SUPPORT BREAK', 'TREND BREAK', 'NEAR SUPPORT'],
-    default=['SUPPORT BREAK', 'TREND BREAK', 'NEAR SUPPORT']
+    [
+        'SUPPORT BREAK',
+        'TREND BREAK',
+        'RESISTANCE BREAK',
+        'NEAR SUPPORT',
+        'NEAR RESISTANCE'
+    ],
+    default=[
+        'SUPPORT BREAK',
+        'TREND BREAK',
+        'RESISTANCE BREAK',
+        'NEAR SUPPORT',
+        'NEAR RESISTANCE'
+    ]
 )
 
 filtered = [r for r in rows if r['signal'] in signals]
 if filtered:
-    frame = pd.DataFrame(filtered).rename(columns={'ticker':'Ticker','date':'Date','close':'Close',
+    frame = pd.DataFrame(filtered).rename(columns={'ticker':'Ticker','date':'Date','close':'Close','resistance': 'Resistance',
+'resistance_distance_pct': 'Resistance distance %',
         'support':'Support','distance_pct':'Distance %','trendline':'Trendline',
         'volume_ratio':'Volume x20','signal':'Signal'})
     st.dataframe(frame, hide_index=True, use_container_width=True)
@@ -67,6 +80,14 @@ if choices:
         row = next(r for r in rows if r['ticker']==ticker)
         fig.add_hline(y=row['support'], line_dash='dash', line_color='orange',
                       annotation_text=f"Support {row['support']}")
+        
+        if row.get('resistance') is not None:
+                fig.add_hline(
+                    y=row['resistance'],
+                    line_dash='dash',
+                    line_color='red',
+                    annotation_text=f"Resistance {row['resistance']}"
+                )
         fig.update_layout(template='plotly_dark', height=520, xaxis_rangeslider_visible=False)
         st.plotly_chart(fig, use_container_width=True)
         st.caption('Horizontal line is an algorithmic pivot reference, not a manually verified support zone.')
