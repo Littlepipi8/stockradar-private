@@ -19,6 +19,9 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Install dependencies
+        run: pip install -r stockradar_private/requirements.txt
+
       - name: Initialize alert history
         working-directory: stockradar_private
         env:
