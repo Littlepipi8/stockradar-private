@@ -26,6 +26,13 @@ def pivot_indices(values, width=5):
     a = np.asarray(values, dtype=float)
     return [i for i in range(width, len(a)-width) if a[i] <= np.min(a[i-width:i+width+1])]
 
+def pivot_high_indices(values, width=5):
+    a = np.asarray(values, dtype=float)
+    return [
+        i for i in range(width, len(a) - width)
+        if a[i] >= np.max(a[i-width:i+width+1])
+    ]
+
 def analyze(symbol, frame, proximity=2.0, width=5):
     frame = frame.dropna(subset=['Open','High','Low','Close']).copy()
     if len(frame) < 110: return None
@@ -39,6 +46,38 @@ def analyze(symbol, frame, proximity=2.0, width=5):
     if not eligible: return None
     anchor = eligible[-1]
     support = float(low[anchor])
+    
+    highs = frame['High'].to_numpy(dtype=float)
+    high_pivots = pivot_high_indices(highs, width)
+
+    resistance_candidates = [
+        float(highs[i])
+        for i in high_pivots
+        if i < len(close) - width
+        and highs[i] >= close[-2] * 0.96
+    ]
+
+    resistance = (
+        min(resistance_candidates, key=lambda x: abs(x - close[-2]))
+        if resistance_candidates else None
+    )
+
+    resistance_distance = (
+        (resistance - close[-1]) / resistance * 100
+        if resistance is not None else None
+    )
+
+    near_resistance = (
+        resistance_distance is not None
+        and 0 <= resistance_distance <= proximity
+    )
+
+    resistance_break = (
+        resistance is not None
+        and close[-2] <= resistance
+        and close[-1] > resistance
+    )
+
     dist = (close[-1]/support - 1)*100
     near = 0 <= dist <= proximity
     breakdown = close[-2] >= support and close[-1] < support
@@ -54,12 +93,30 @@ def analyze(symbol, frame, proximity=2.0, width=5):
         break
     avg_vol = float(np.nanmean(volume[-21:-1]))
     vol_ratio = float(volume[-1]/avg_vol) if avg_vol > 0 else None
-    signal = 'SUPPORT BREAK' if breakdown else 'TREND BREAK' if trend_break else 'NEAR SUPPORT' if near else 'NONE'
-    return dict(ticker=symbol, date=str(frame.index[-1].date()), close=round(float(close[-1]),2),
-                support=round(support,2), distance_pct=round(float(dist),2),
-                trendline=round(trend,2) if trend is not None else None,
-                volume_ratio=round(vol_ratio,2) if vol_ratio is not None else None,
-                signal=signal)
+   
+    signal = (
+        'SUPPORT BREAK' if breakdown else
+        'TREND BREAK' if trend_break else
+        'RESISTANCE BREAK' if resistance_break else
+        'NEAR SUPPORT' if near else
+        'NEAR RESISTANCE' if near_resistance else
+        'NONE'
+    )
+
+    return dict(
+        ticker=symbol,
+        date=str(frame.index[-1].date()),
+        close=round(float(close[-1]), 2),
+        support=round(support, 2),
+        resistance=round(resistance, 2) if resistance is not None else None,
+        distance_pct=round(float(dist), 2),
+        resistance_distance_pct=round(float(resistance_distance), 2)
+            if resistance_distance is not None else None,
+        trendline=round(trend, 2) if trend is not None else None,
+        volume_ratio=round(vol_ratio, 2) if vol_ratio is not None else None,
+        signal=signal
+    )
+
 
 def fetch(symbol):
     df = yf.download(symbol, period='2y', interval='1d', auto_adjust=True,
@@ -79,7 +136,7 @@ def scan(tickers, proximity=2.0, width=5, pause=0.15):
             print(f'Failed {symbol}: {exc}', flush=True)
         if idx % 25 == 0: print(f'Processed {idx}/{len(tickers)}', flush=True)
         time.sleep(pause)
-    rank = {'SUPPORT BREAK':0, 'TREND BREAK':1, 'NEAR SUPPORT':2, 'NONE':3}
+    rank = {'SUPPORT BREAK':0, 'TREND BREAK':1, 'RESISTANCE BREAK':2, 'NEAR SUPPORT':3, 'NEAR RESISTANCE':4, 'NONE':5}
     rows.sort(key=lambda r:(rank[r['signal']], abs(r['distance_pct'])))
     return dict(generated_at=datetime.now(timezone.utc).isoformat(),
                 universe_size=len(tickers), scanned=len(rows), failed=failed,
