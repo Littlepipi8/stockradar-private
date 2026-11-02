@@ -3,6 +3,7 @@
 
 import json
 import os
+import time
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -85,14 +86,33 @@ def notify():
                 },
                 method="POST",
             )
-
+        for attempt in range(6):
             try:
-                with urllib.request.urlopen(
-                    request, timeout=20
-                ) as response:
+                with urllib.request.urlopen(request, timeout=20) as response:
                     print("Discord response:", response.status)
+                time.sleep(2)
+                break
+
             except urllib.error.HTTPError as error:
-                print("Discord status:", error.code)
+                if error.code == 429:
+                    retry_after = error.headers.get("Retry-After")
+
+                    try:
+                        wait = float(retry_after) if retry_after else 5.0
+                    except (TypeError, ValueError):
+                        wait = 5.0
+
+                    wait = max(1.0, min(wait, 120.0))
+                    print(f"Discord rate limit. Waiting {wait} seconds...")
+                    time.sleep(wait + 1)
+
+                    if attempt == 5:
+                        raise RuntimeError(
+                            "Discord rate limit persisted after 6 attempts"
+                        ) from error
+                else:
+                    print("Discord status:", error.code)
+                    raise
                 raise
 
         print(f"Sent {len(fresh)} new Discord signals")
