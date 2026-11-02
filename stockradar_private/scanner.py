@@ -42,17 +42,18 @@ def analyze(symbol, frame, proximity=2.0, width=5):
     piv = pivot_indices(low, width)
     if not piv: return None
     # Find the nearest confirmed pivot low at or below the latest close.
-eligible = [
-    i for i in piv
-    if i < len(close) - width
-    and low[i] <= close[-1]
-]
+    # Find the nearest confirmed pivot low at or below the latest close.
+    eligible = [
+        i for i in piv
+        if i < len(close) - width
+        and low[i] <= close[-1]
+    ]
 
-support = (
-    max(float(low[i]) for i in eligible)
-    if eligible else None
-)
-    
+    support = (
+        max(float(low[i]) for i in eligible)
+        if eligible else None
+    )
+
     highs = frame['High'].to_numpy(dtype=float)
     high_pivots = pivot_high_indices(highs, width)
 
