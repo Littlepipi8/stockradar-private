@@ -40,8 +40,13 @@ c.metric('Near support', sum(r['signal']=='NEAR SUPPORT' for r in rows))
 d.metric('Breakdowns', sum('BREAK' in r['signal'] for r in rows))
 if data['failed']:
     st.warning(f"Incomplete coverage: {len(data['failed'])} symbols failed. Interpret results cautiously.")
-signals = st.multiselect('Show signals', ['SUPPORT BREAK','TREND BREAK','NEAR SUPPORT','NONE'],
-                         default=['SUPPORT BREAK','TREND BREAK','NEAR SUPPORT'])
+
+signals = st.multiselect(
+    'Show signals',
+    ['SUPPORT BREAK', 'TREND BREAK', 'NEAR SUPPORT'],
+    default=['SUPPORT BREAK', 'TREND BREAK', 'NEAR SUPPORT']
+)
+
 filtered = [r for r in rows if r['signal'] in signals]
 if filtered:
     frame = pd.DataFrame(filtered).rename(columns={'ticker':'Ticker','date':'Date','close':'Close',
