@@ -73,30 +73,50 @@ if choices:
     ticker = st.selectbox('Inspect stock', choices, index=choices.index('GOOG') if 'GOOG' in choices else 0)
     @st.cache_data(ttl=3600)
     def load(symbol): return fetch(symbol)
-    try:
-        history = load(ticker)
-        fig = go.Figure(data=[go.Candlestick(x=history.index, open=history.Open, high=history.High,
-                                            low=history.Low, close=history.Close, name=ticker)])
-        row = next(r for r in rows if r['ticker']==ticker)
-if row.get('support') is not None:
-    fig.add_hline(
-        y=row['support'],
-        line_dash='dash',
-        line_color='orange',
-        annotation_text=f"Support {row['support']}"
-    )
+        try:
+            history = load(ticker)
 
-if row.get('resistance') is not None:
-    fig.add_hline(
-        y=row['resistance'],
-        line_dash='dash',
-        line_color='red',
-        annotation_text=f"Resistance {row['resistance']}"
-    )
-        fig.update_layout(template='plotly_dark', height=520, xaxis_rangeslider_visible=False)
-        st.plotly_chart(fig, use_container_width=True)
-        st.caption(
-    'Support and resistance lines are algorithmic pivot references, '
-    'not manually verified trading zones.'
-)
-    except Exception as exc: st.warning(f'Chart temporarily unavailable: {exc}')
+            fig = go.Figure(data=[
+                go.Candlestick(
+                    x=history.index,
+                    open=history.Open,
+                    high=history.High,
+                    low=history.Low,
+                    close=history.Close,
+                    name=ticker
+                )
+            ])
+
+            row = next(r for r in rows if r['ticker'] == ticker)
+
+            if row.get('support') is not None:
+                fig.add_hline(
+                    y=row['support'],
+                    line_dash='dash',
+                    line_color='orange',
+                    annotation_text=f"Support {row['support']}"
+                )
+
+            if row.get('resistance') is not None:
+                fig.add_hline(
+                    y=row['resistance'],
+                    line_dash='dash',
+                    line_color='red',
+                    annotation_text=f"Resistance {row['resistance']}"
+                )
+
+            fig.update_layout(
+                template='plotly_dark',
+                height=520,
+                xaxis_rangeslider_visible=False
+            )
+
+            st.plotly_chart(fig, use_container_width=True)
+
+            st.caption(
+                'Support and resistance lines are algorithmic pivot references, '
+                'not manually verified trading zones.'
+            )
+
+        except Exception as exc:
+            st.warning(f'Chart temporarily unavailable: {exc}')
