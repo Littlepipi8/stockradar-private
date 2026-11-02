@@ -74,7 +74,7 @@ if choices:
     @st.cache_data(ttl=3600)
     def load(symbol): return fetch(symbol)
     try:
-    history = load(ticker)
+      history = load(ticker)
 
             fig = go.Figure(data=[
                 go.Candlestick(
