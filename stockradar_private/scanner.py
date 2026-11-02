@@ -79,7 +79,7 @@ def analyze(symbol, frame, proximity=2.0, width=5):
         and 0 <= resistance_distance <= proximity
     )
 
-       broken_resistances = [
+    broken_resistances = [
         float(highs[i])
         for i in high_pivots
         if i < len(close) - width
