@@ -1,0 +1,28 @@
+
+name: Test VST levels
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r stockradar_private/requirements.txt
+
+      - name: Test VST
+        working-directory: stockradar_private
+        run: python test_vst.py
