@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-26T09:02:32.679484+00:00",
+  "generated_at": "2026-11-27T09:15:20.204233+00:00",
   "universe_size": 503,
   "scanned": 502,
   "failed": [
@@ -367,7 +367,7 @@
       "distance_pct": 0.49,
       "resistance_distance_pct": 25.01,
       "trendline": 347.7,
-      "volume_ratio": 0.88,
+      "volume_ratio": 0.89,
       "signal": "NEAR SUPPORT"
     },
     {
@@ -1063,7 +1063,7 @@
       "distance_pct": 3.57,
       "resistance_distance_pct": 44.66,
       "trendline": 103.51,
-      "volume_ratio": 0.96,
+      "volume_ratio": 0.97,
       "signal": "NONE"
     },
     {
@@ -1171,7 +1171,7 @@
       "distance_pct": 3.99,
       "resistance_distance_pct": 4.46,
       "trendline": 255.09,
-      "volume_ratio": 0.8,
+      "volume_ratio": 0.82,
       "signal": "NONE"
     },
     {
@@ -1603,7 +1603,7 @@
       "distance_pct": 8.22,
       "resistance_distance_pct": 14.89,
       "trendline": 269.47,
-      "volume_ratio": 1.15,
+      "volume_ratio": 1.16,
       "signal": "NONE"
     },
     {
@@ -2423,6 +2423,18 @@
       "signal": "NONE"
     },
     {
+      "ticker": "KDP",
+      "date": "2026-11-25",
+      "close": 35.63,
+      "support": 31.09,
+      "resistance": null,
+      "distance_pct": 14.59,
+      "resistance_distance_pct": null,
+      "trendline": 31.83,
+      "volume_ratio": 0.52,
+      "signal": "NONE"
+    },
+    {
       "ticker": "NKE",
       "date": "2026-11-25",
       "close": 36.66,
@@ -2431,7 +2443,7 @@
       "distance_pct": 14.67,
       "resistance_distance_pct": 45.06,
       "trendline": 82.18,
-      "volume_ratio": 1.09,
+      "volume_ratio": 1.1,
       "signal": "NONE"
     },
     {
@@ -2491,7 +2503,7 @@
       "distance_pct": 14.79,
       "resistance_distance_pct": 24.72,
       "trendline": 342.38,
-      "volume_ratio": 0.91,
+      "volume_ratio": 0.92,
       "signal": "NONE"
     },
     {
@@ -2503,7 +2515,7 @@
       "distance_pct": 14.84,
       "resistance_distance_pct": 24.11,
       "trendline": 202.22,
-      "volume_ratio": 1.02,
+      "volume_ratio": 1.03,
       "signal": "NONE"
     },
     {
@@ -2743,7 +2755,7 @@
       "distance_pct": 16.9,
       "resistance_distance_pct": 17.97,
       "trendline": 573.8,
-      "volume_ratio": 0.97,
+      "volume_ratio": 0.98,
       "signal": "NONE"
     },
     {
@@ -2791,7 +2803,7 @@
       "distance_pct": 17.13,
       "resistance_distance_pct": 42.59,
       "trendline": 336.24,
-      "volume_ratio": 0.87,
+      "volume_ratio": 0.88,
       "signal": "NONE"
     },
     {
@@ -3115,7 +3127,7 @@
       "distance_pct": 19.66,
       "resistance_distance_pct": 34.17,
       "trendline": 27.94,
-      "volume_ratio": 0.88,
+      "volume_ratio": 0.89,
       "signal": "NONE"
     },
     {
@@ -3631,7 +3643,7 @@
       "distance_pct": 24.61,
       "resistance_distance_pct": null,
       "trendline": 107.83,
-      "volume_ratio": 1.59,
+      "volume_ratio": 1.6,
       "signal": "NONE"
     },
     {
@@ -3656,18 +3668,6 @@
       "resistance_distance_pct": 2.15,
       "trendline": 219.47,
       "volume_ratio": 1.06,
-      "signal": "NONE"
-    },
-    {
-      "ticker": "KDP",
-      "date": "2026-11-25",
-      "close": 35.63,
-      "support": 28.54,
-      "resistance": null,
-      "distance_pct": 24.86,
-      "resistance_distance_pct": null,
-      "trendline": 31.83,
-      "volume_ratio": 0.52,
       "signal": "NONE"
     },
     {
@@ -4531,7 +4531,7 @@
       "distance_pct": 37.17,
       "resistance_distance_pct": 46.95,
       "trendline": 285.7,
-      "volume_ratio": 1.51,
+      "volume_ratio": 1.52,
       "signal": "NONE"
     },
     {
@@ -5119,7 +5119,7 @@
       "distance_pct": 50.13,
       "resistance_distance_pct": 58.3,
       "trendline": 760.43,
-      "volume_ratio": 0.84,
+      "volume_ratio": 0.85,
       "signal": "NONE"
     },
     {
@@ -5575,7 +5575,7 @@
       "distance_pct": 72.8,
       "resistance_distance_pct": 36.54,
       "trendline": 190.67,
-      "volume_ratio": 1.08,
+      "volume_ratio": 1.09,
       "signal": "NONE"
     },
     {
@@ -5599,7 +5599,7 @@
       "distance_pct": 76.14,
       "resistance_distance_pct": 56.53,
       "trendline": 288.93,
-      "volume_ratio": 0.82,
+      "volume_ratio": 0.83,
       "signal": "NONE"
     },
     {
@@ -5731,7 +5731,7 @@
       "distance_pct": 93.08,
       "resistance_distance_pct": 45.76,
       "trendline": 1156.97,
-      "volume_ratio": 1.46,
+      "volume_ratio": 1.47,
       "signal": "NONE"
     },
     {
@@ -5779,7 +5779,7 @@
       "distance_pct": 101.57,
       "resistance_distance_pct": 49.43,
       "trendline": 276.82,
-      "volume_ratio": 1.04,
+      "volume_ratio": 1.05,
       "signal": "NONE"
     },
     {
@@ -5791,7 +5791,7 @@
       "distance_pct": 108.38,
       "resistance_distance_pct": 35.81,
       "trendline": 52.06,
-      "volume_ratio": 1.51,
+      "volume_ratio": 1.52,
       "signal": "NONE"
     },
     {
@@ -5815,7 +5815,7 @@
       "distance_pct": 112.89,
       "resistance_distance_pct": 38.34,
       "trendline": 479.09,
-      "volume_ratio": 1.13,
+      "volume_ratio": 1.14,
       "signal": "NONE"
     },
     {
@@ -5887,7 +5887,7 @@
       "distance_pct": 147.62,
       "resistance_distance_pct": 17.62,
       "trendline": 351.5,
-      "volume_ratio": 0.82,
+      "volume_ratio": 0.83,
       "signal": "NONE"
     },
     {
@@ -5911,7 +5911,7 @@
       "distance_pct": 174.27,
       "resistance_distance_pct": 50.05,
       "trendline": 568.73,
-      "volume_ratio": 2.88,
+      "volume_ratio": 2.9,
       "signal": "NONE"
     },
     {
@@ -5971,7 +5971,7 @@
       "distance_pct": null,
       "resistance_distance_pct": 51.71,
       "trendline": 191.81,
-      "volume_ratio": 1.04,
+      "volume_ratio": 1.05,
       "signal": "NONE"
     },
     {
